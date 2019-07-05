@@ -1,0 +1,335 @@
+
+body
+{
+	overflow:hidden;
+}
+
+#filter
+{
+	position:absolute;
+	margin-top:8px;
+	left:190px;
+}
+
+#siteSidebar
+{
+  display:none;
+}
+
+#siteContent
+{
+  left:0px;
+}
+
+#siteToolbar
+{
+  margin-left:-130px;
+}
+
+#notificationsDiv
+{
+	display:none;
+}
+
+/***********************************
+	attachment section
+***********************************/
+
+.uploadDiv {
+	padding:4px;
+	background-color:#DADADA;
+}
+
+.attachList {
+	margin-top:5px;
+}
+
+.attachList li {
+	padding:2px;
+	border-top:1px solid #DADADA;
+}
+
+.attachList li img {
+	float:right;
+}
+
+.attachHeader {
+	font-weight:bold;
+	color:darkblue;
+	padding:4px;
+}
+
+.fileUploads {
+	border-bottom:5px solid #5D709E;
+	padding-bottom:5px;
+}
+
+/*************************************
+	compose section
+*************************************/
+
+#emailHeader {
+	background-color:#ededed;
+	padding:5px;
+	border-bottom:1px solid #797E85;
+}
+
+.emailHeaderCell {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.emailHeaderTitle {
+	float:left;
+	width:50px;
+	height:50px;
+	font-weight:bold;
+	padding:3px;
+}
+
+.emailHeaderContent {
+	padding:3px;
+	float:left;
+	height:50px;
+	width:80%;
+}
+
+#to {
+	width:100%;
+	height:40px;
+}
+
+#cc {
+	width:100%;
+	height:40px;
+}
+
+#bcc {
+	width:100%;
+	height:40px;
+}
+
+#subjectCell .emailHeaderTitle {
+	height:22px;
+}
+
+#subjectCell .emailHeaderContent {
+	height:22px;
+}
+
+#subject {
+	width:80%;
+}
+
+/***********************
+	template window
+***********************/
+#templatewin {
+	width:500px;
+	height:350px;
+	-moz-border-radius:8px;
+	background-color:lightyellow;
+	border:1px solid black;
+	position:absolute;
+	z-index:10;
+}
+
+.closeImage {
+	float:right;
+	margin:5px;
+}
+
+.templateHeader {
+	font-weight:bold;
+	font-size:14px;
+	margin:10px;
+}
+
+.templateSectionHeader {
+	font-weight:bold;
+	margin:5px;
+}
+
+.templateContent {
+	margin:5px;
+	margin-left:10px;
+}
+
+.leftColumn {
+	float:left;
+	width:47%;
+}
+
+.rightColumn {
+	float:left;
+	width:47%;
+}
+
+#privateList {
+	border:1px solid #DADADA;
+	width:200px;
+	height:250px;
+	overflow:auto;
+	background-color:white;
+}
+
+#pubList {
+	border:1px solid #DADADA;
+	width:200px;
+	height:250px;
+	overflow:auto;
+	background-color:white;
+}
+
+.templateList {
+	padding:2px;
+	list-style-type:none;
+	border-bottom:1px solid #DADADA;
+}
+
+.templateList:hover {
+	cursor:pointer;
+}
+
+/*********************************
+	address book window
+*********************************/
+#addrwin {
+	width:435px;
+	height:330px;
+	-moz-border-radius:8px;
+	background-color:lightyellow;
+	border:1px solid black;
+	position:absolute;
+	z-index:10;
+	padding:5px;
+	padding-left:20px;
+}
+
+.addrHeader {
+	font-weight:bold;
+	font-size:14px;
+	margin:5px;
+	margin-top:10px;
+}
+
+.addrHeader input {
+	float:right;
+	font-size:10px;
+}
+
+.addrHeader select {
+	float:right;
+	font-size:10px;
+	margin-right:30px;
+}
+
+.addrHeader .closeImage {
+	margin-top:-20px;
+}
+
+#addrList {
+	border:1px solid #DADADA;
+	width:400px;
+	height:250px;
+	overflow:auto;
+	background-color:white;
+}
+
+.addrrow {
+	border-bottom:1px solid #DADADA;
+	padding:2px;
+}
+
+.addrrow:hover {
+	cursor:pointer;
+}
+
+.namecell {
+	float:left;
+	width:48%;
+}
+
+.emailcell {
+	float:left;
+	width:48%;
+}
+
+/*************************************
+	address suggest divs
+*************************************/
+
+.suggestdiv {
+	display:none;
+	position:absolute;
+	background-color:white;
+	border:1px solid black;
+	z-index:600;
+}
+
+.suggestdiv div {
+	padding:2px;
+	border-bottom:1px solid #DADADA;
+}
+
+.suggestdiv div:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+#editor_content
+{
+	width:99%;
+	height:400px;
+}
+
+#attachCell
+{
+	margin-left:60px;
+	display:none
+}
+
+#progressContainer
+{
+	height:20px;
+	width:275px;
+	border:1px solid slateblue;
+	text-align:center;
+}
+
+#progressStatus
+{
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#058cf5), to(#015FE7), color-stop(.1,#058cf5));
+	background: -moz-linear-gradient(0% 100% 90deg,#058cf5, #015fe7, #058cf5 10%);
+	height:20px;
+	width:0px;
+}
+
+#progressText
+{
+	margin-top:4px;
+}
+
+
+.attachEntry
+{
+	float:left;
+	margin-right:20px;
+}
+
+.attachEntry img
+{
+	margin-left:5px;
+	margin-right:2px;
+	margin-bottom:-2px;
+}
+
+.abName
+{
+	width:225px;
+}
+
+.abEmail
+{
+	width:225px;
+}

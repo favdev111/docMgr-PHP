@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Link Valid</title>
+				<lang>_I18N_LINK_VALID_FOR</lang>
+				<name>expire</name>
+				<data>expire</data>
+				<type>select</type>
+				<onchange>ACTIONS.generateLink()</onchange>
+				<option>
+					<title>Choose expiration length</title>
+					<data>0</data>
+				</option>
+				<option>
+					<title>24 Hours</title>
+					<data>24</data>
+				</option>
+				<option>
+					<title>48 Hours</title>
+					<data>48</data>
+				</option>
+				<option>
+					<title>1 Week</title>
+					<data>168</data>
+				</option>
+				<option>
+					<title>1 Month</title>
+					<data>720</data>
+				</option>
+				<option>
+					<title>1 Year</title>
+					<data>8760</data>
+				</option>
+
+			</form>
+
+			<form>
+				<title>Link</title>
+				<lang>_I18N_OBJECT_LINK</lang>
+				<name>object_link</name>
+				<data>object_link</data>
+				<type>textbox</type>
+			</form>
+
+</data>
+

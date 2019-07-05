@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+<!--
+	<div_id> -> the id of the div we'll put our forms into
+	<form>
+		<title>My Select</title>  header over form
+		<name>form_name</name>		html form name
+		<type>select</type>				type (textbox,textarea,select)
+		<table>state</table>			table to get data from
+		<title_field>id</title_field>		name field in table (contains entry names))
+		<data_field>name</data_field>		value field in table (contains entry values) 
+		<data>field</data>	field in passed data which contains stored value
+		###### checkbox forms #########
+		<data_node>field</data_node> overrides "data" as the $_REQUEST field we pull our data from
+		<save_table>table</save_table> overrides "table" as the table we save our records to
+		###############################
+		<central>yes</central>  query central database for records
+	</form>
+
+-->
+
+	<div class="eformRow">
+
+		<div class="eformColumn">
+	
+			<form>
+				<title>Login</title>
+				<name>login</name>
+				<data>login</data>
+				<type>textbox</type>
+				<readonly>1</readonly>
+			</form>
+			<form>
+				<title>First Name</title>
+				<name>first_name</name>
+				<data>first_name</data>
+				<type>textbox</type>
+			</form>
+			<form>
+				<title>Last Name</title>
+				<name>last_name</name>
+				<data>last_name</data>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Email</title>
+				<name>email</name>
+				<data>email</data>
+				<type>textbox</type>
+			</form>
+
+		</div>
+		<div class="eformColumn">
+
+			<form>
+				<title>Work Phone</title>
+				<name>work_phone</name>
+				<data>work_phone</data>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Mobile</title>
+				<name>mobile</name>
+				<data>mobile</data>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Home Phone</title>
+				<name>home_phone</name>
+				<data>home_phone</data>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Fax</title>
+				<name>fax</name>
+				<data>fax</data>
+				<type>textbox</type>
+			</form>
+
+	
+		</div>
+		
+	</div>
+	
+</data>
+
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Name</title>
+				<name>name</name>
+				<data>name</data>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Required</title>
+				<name>required</name>
+				<data>required</data>
+				<type>yesno</type>
+				<defaultval>f</defaultval>
+			</form>
+
+			<form>
+				<title>Type</title>
+				<name>type</name>
+				<data>type</data>
+				<type>select</type>
+				<onchange>KEYWORDS.keywordToolbar()</onchange>
+				<option>
+					<title>Text</title>
+					<data>text</data>
+				</option>
+				<option>
+					<title>Select</title>
+					<data>select</data>
+				</option>
+				<option>
+					<title>Number</title>
+					<data>number</data>
+				</option>
+				<option>
+					<title>Date</title>
+					<data>date</data>
+				</option>
+			</form>
+			
+</data>

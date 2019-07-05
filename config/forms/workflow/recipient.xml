@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Task Type</title>
+				<lang>_I18N_TASKTYPE</lang>
+				<name>task_type</name>
+				<data>task_type</data>
+				<type>select</type>
+				<option>
+					<title>Revistar</title>
+					<data>view</data>
+				</option>
+				<option>
+					<title>Editar</title>
+					<data>edit</data>
+				</option>
+				<option>
+					<title>Aprobar</title>
+					<data>approve</data>
+				</option>
+			</form>
+
+			<form>
+				<title>Due Date</title>
+				<lang>_I18N_DUE_DATE</lang>
+				<name>date_due</name>
+				<data>date_due</data>
+				<type>date</type>
+			</form>
+
+			<form>
+				<title>Task Recipient</title>
+				<lang>_I18N_TASKRECIP</lang>
+				<name>account_id[]</name>
+				<data>account_id</data>
+				<type>checkbox</type>
+				<api_command>config_account_search</api_command>
+				<title_field>full_name</title_field>
+				<data_field>id</data_field>
+			</form>
+
+			<form>
+				<title>Notes</title>
+				<lang>_I18N_TASK_NOTES</lang>
+				<name>task_notes</name>
+				<data>task_notes</data>
+				<type>textarea</type>
+			</form>
+
+	
+</data>

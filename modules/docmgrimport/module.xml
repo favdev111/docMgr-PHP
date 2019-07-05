@@ -1,0 +1,9 @@
+	<module>
+		<module_name>Document Importer</module_name>
+		<link_name>docmgrimport</link_name>
+		<module_description>Web-accessible file storage</module_description>	
+		<perm_error></perm_error>
+		<auth_only>1</auth_only>
+		<sort_order>3</sort_order>
+	</module>
+

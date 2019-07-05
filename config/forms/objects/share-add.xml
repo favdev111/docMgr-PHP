@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Account</title>
+				<lang>_I18N_ACCOUNT</lang>
+				<name>share_account_id</name>
+				<data>share_account_id</data>
+				<type>select</type>
+				<api_command>config_account_search</api_command>
+				<title_field>full_name</title_field>
+				<data_field>id</data_field>
+			</form>
+
+			<form>
+				<title>Share Settings</title>
+				<lang>_I18N_SETTING</lang>
+				<name>share_level</name>
+				<data>share_level</data>
+				<type>select</type>
+				<option>
+					<title>View</title>
+					<data>view</data>
+				</option>
+				<option>
+					<title>Edit</title>
+					<data>edit</data>
+				</option>
+			</form>
+		
+</data>
+

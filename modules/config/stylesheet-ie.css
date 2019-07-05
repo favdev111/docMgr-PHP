@@ -1,0 +1,95 @@
+
+.nameCell
+{
+	width:20%;
+}
+
+.accountLoginCell
+{
+	width:23%;
+}
+
+.accountNameCell
+{
+	width:23%;
+}
+
+.accountEmailCell
+{
+	width:25%;
+}
+
+.accountLastAccessCell
+{
+	width:23%;
+}
+
+.groupNameCell
+{
+	width:50%;
+}
+
+.groupMembersCell
+{
+	width:40%;
+}
+
+.keywordNameCell
+{
+	width:30%;
+}
+
+.keywordTypeCell
+{
+	width:30%;
+}
+
+.keywordRequiredCell
+{
+	width:30%;
+}
+
+.logTimeCell
+{
+	width:20%;
+}
+
+.logMessageCell
+{
+	width:25%;
+}
+
+.logLevelCell
+{
+	width:6%;
+}
+
+.logCategoryCell
+{
+	width:10%;
+}
+
+.logIpCell
+{
+	width:12%;
+}
+
+.logAccountIdCell
+{
+	width:10%;
+}
+
+.logLoginCell
+{
+	width:10%;
+}
+
+.bookmarkNameCell
+{
+	width:50%;
+}
+
+.bookmarkOptionCell
+{
+	width:40%;
+}

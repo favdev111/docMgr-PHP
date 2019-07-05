@@ -1,0 +1,157 @@
+
+
+#mbObjectList {
+	border:1px solid #E0E0E0;
+	height:320px;
+	margin-top:10px;
+	margin-left:15px;
+	width:605px;
+	position:relative;
+	overflow-x:scroll;
+	overflow-y:hidden;
+}
+
+#mbObjectList table {
+	table-layout:fixed;
+	position:relative;
+	width:605px;
+}
+
+.mbObjectCell {
+	position:relative;
+	border-right:1px solid #E0E0E0;
+	border-top:1px solid #E0E0E0;
+	border-bottom:1px solid #E0E0E0;
+	width:185px;
+	height:300px;
+	background-color:white;
+}
+
+.mbObjectCellContainer {
+	overflow-y:auto;
+	overflow-x:hidden;
+	width:100%;
+	height:300px;
+	position:relative;
+}
+
+
+.mbObjectRow {
+	padding:2px;
+	color:darkslategray;
+}
+
+.mbObjectRow img {
+	margin-right:4px;
+	margin-bottom:-2px;
+}
+
+.mbObjectRowSel img {
+	margin-right:4px;
+	margin-bottom:-2px;
+}
+
+.mbObjectRow:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+.mbObjectRowSel {
+	background-color:#E8E9ED;
+	color:darkslategray;
+	padding:2px;
+}
+
+.mbObjectRowSel:hover {
+	cursor:pointer;
+}
+
+.mbObjectRowDisabled {
+	color:#DCDCDC;
+}
+
+.mbObjectRowDisabled img {
+	margin-right:4px;
+	margin-bottom:-2px;
+}
+
+.mbObjectRowDisabled:hover {
+	cursor:arrow;
+}
+
+#mbPathDiv {
+	margin-top:15px;
+	margin-bottom:10px;
+	margin-left:5px;
+}
+
+#mbPathDisplay
+{
+	margin-left:5px;
+}
+
+.mbHeader {
+	font-weight:bold;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+#selectedPath {
+	width:100%;
+}
+
+#fileName {
+	width:80%;
+	margin-top:-3px;
+}
+
+#mbTypeDiv
+{
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:5px;
+}
+
+#fileType
+{
+	margin-top:-3px;
+}
+
+#mbObjectControls {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#mbObjectToolbar {
+}
+
+.filterDesc {
+	float:right;
+}
+
+.browseSwitch {
+	float:right;
+}
+
+.winHeader {
+	font-size:14px;
+	font-weight:bold;
+}
+
+.currentHeader {
+	float:left;
+	width:50px;
+	font-weight:bold;
+	text-align:right;
+	padding-right:10px;
+}
+
+.currentInfo {
+	float:left;
+	width:490px;
+}
+
+.currentInfo input {
+	margin-top:-3px;
+	width:400px;
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+	<div class="eformRow">
+	
+		<div class="eformColumn">
+
+			<form>
+				<title>Name</title>
+				<lang>_I18N_NAME</lang>
+				<name>name</name>
+				<data>name</data>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Description</title>
+				<lang>_I18N_DESCRIPTION</lang>
+				<name>summary</name>
+				<data>summary</data>
+				<type>textarea</type>
+			</form>
+		
+		</div>
+		<div class="eformColumn">
+
+			<form>
+				<title>Object ID</title>
+				<lang>_I18N_OBJECT_ID</lang>
+				<name>id</name>
+				<data>id</data>
+				<type>textbox</type>
+				<readonly>1</readonly>
+			</form>
+
+			<form>
+				<title>Owner</title>
+				<lang>_I18N_OWNER</lang>
+				<name>owner_name</name>
+				<data>owner_name</data>
+				<type>textbox</type>
+				<readonly>1</readonly>
+			</form>
+
+			<form>
+				<title>Last Modified</title>
+				<lang>_I18N_LAST_MODIFIED</lang>
+				<name>view_last_modified</name>
+				<data>view_last_modified</data>
+				<type>textbox</type>
+				<readonly>1</readonly>
+			</form>
+
+			<form>
+				<title>Modified By</title>
+				<lang>_I18N_MODIFIED_BY</lang>
+				<name>view_modified_by</name>
+				<data>view_modified_by</data>
+				<type>textbox</type>
+				<readonly>1</readonly>
+			</form>
+		
+		</div>
+		
+	</div>
+	
+</data>
+

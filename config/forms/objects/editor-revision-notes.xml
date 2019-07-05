@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Revision Notes</title>
+				<lang>_I18N_REVISION_NOTES</lang>
+				<name>revision_notes</name>
+				<data>revision_notes</data>
+				<type>textarea</type>
+			</form>
+	
+</data>
+

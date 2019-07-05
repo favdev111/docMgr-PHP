@@ -1,0 +1,44 @@
+
+.nameCell
+{
+  width:150px;
+}
+
+.objectNamesCell
+{
+	width:25%;
+}
+
+.createdDateCell
+{
+  width:150px;
+}
+
+.createdByCell
+{
+  width:130px;
+}
+
+.statusCell
+{
+  width:130px;
+}
+
+/**
+	task cells
+	*/
+.fileCell
+{
+  -webkit-box-flex:1;
+  -moz-box-flex:1;
+  -ms-box-flex:1;
+  box-flex:1;
+}
+
+.commentsCell
+{
+  -webkit-box-flex:1;
+  -moz-box-flex:1;
+  -ms-box-flex:1;
+  box-flex:1;
+}

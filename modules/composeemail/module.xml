@@ -1,0 +1,8 @@
+	<module>
+		<module_name>Create Email</module_name>
+		<link_name>composeemail</link_name>
+		<hidden></hidden>
+		<sort_order>3.5</sort_order>
+		<module_description></module_description>
+	</module>
+

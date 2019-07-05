@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Address</title>
+				<lang>_I18N_URL</lang>
+				<name>url</name>
+				<data>url</data>
+				<type>textbox</type>
+			</form>
+
+</data>
+

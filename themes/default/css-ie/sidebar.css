@@ -1,0 +1,113 @@
+
+/***************************************************
+	sidebar
+***************************************************/
+
+#siteSidebar {
+  width:220px; 
+  margin-right:2px;
+	top:0px;
+  position:absolute;
+  height:100%;
+  border-right:1px solid #E0E0E0; 
+  overflow:auto;
+  color:darkslategray;
+  background:#F5F5F5;
+  -webkit-user-select:none;
+  -webkit-text-size-adjust:none;
+  -ms-user-select:none;
+  -ms-text-size-adjust:none;
+  -moz-user-select:none;
+  -moz-text-size-adjust:none;
+}
+
+.siteSidebarHeader
+{
+  background-color:#F5F5F5;
+  border-bottom:1px solid #E0E0E0;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  color:#989898;
+}
+
+.siteSidebarRow
+{
+  font-weight:bold;
+  border-bottom:1px solid #E0E0E0;
+  background-color:#F5F5F5;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height:36px;
+}
+
+.siteSidebarRowLabel
+{
+	margin-top:11px;
+	nargin-bottom:11px;
+	margin-right:5px;
+	float:left;
+}
+
+.siteSidebarRowExpandIcon
+{
+  margin-right:7px;
+  width:8px;
+  height:8px;
+	margin-top:14px;
+	margin-bottom:14px;
+	float:left;
+}
+
+.siteSidebarRowIcon
+{
+  margin-right:8px;
+  width:20px;
+  height:20px;
+	margin-top:8px;
+	margin-bottom:10px;
+	float:left;
+}
+
+.siteSidebarRowRightIcon
+{
+  margin-right:7px;
+  width:16px;
+  height:16px;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:right;
+}
+
+.siteSidebarRow:hover
+{
+  cursor:default;
+}
+
+.siteSidebarRowSelected
+{
+  background-color:#E8E9ED;
+}
+
+.siteSidebarRow:active
+{
+  background-color:#E8E9ED;
+}
+
+.siteSidebarSub
+{
+  display:none;
+  -webkit-box-orient:vertical;
+  -ms-box-orient:vertical;
+  -moz-box-orient:vertical;
+  width:100%;
+}
+
+.siteSidebarHeaderImage
+{
+  float:right;
+  margin-right:5px;
+  width:16px;
+  height:16px;
+}
+

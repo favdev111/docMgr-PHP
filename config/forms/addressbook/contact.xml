@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+	<div class="eformRow">
+
+		<div class="eformColumn">
+
+		<form>
+			<title>First Name</title>
+			<lang>_I18N_FIRST_NAME</lang>
+			<name>first_name</name>
+			<data>first_name</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Last Name</title>
+			<lang>_I18N_LAST_NAME</lang>
+			<name>last_name</name>
+			<data>last_name</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Street 1</title>
+			<lang>_I18N_STREET1</lang>
+			<name>address</name>
+			<data>address</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Street 2</title>
+			<lang>_I18N_STREET2</lang>
+			<name>address2</name>
+			<data>address2</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>City</title>
+			<lang>_I18N_CITY</lang>
+			<name>city</name>
+			<data>city</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>State</title>  
+			<lang>_I18N_STATE</lang>
+			<name>state</name>
+			<data>state</data>	
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Zip</title>
+			<lang>_I18N_ZIP</lang>
+			<name>zip</name>
+			<data>zip</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Country</title>  
+			<lang>_I18N_COUNTRY</lang>
+			<name>country</name>
+			<data>country</data>
+			<type>textbox</type>
+		</form>
+
+		</div>
+
+		<div class="eformColumn">
+
+		<form>
+			<title>Email</title>
+			<lang>_I18N_EMAIL</lang>
+			<name>email</name>
+			<data>email</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Home Phone</title>
+			<lang>_I18N_HOME_PHONE</lang>
+			<name>home_phone</name>
+			<data>home_phone</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Work Phone</title>
+			<lang>_I18N_WORK_PHONE</lang>
+			<name>work_phone</name>
+			<data>work_phone</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Work Extension</title>
+			<lang>_I18N_WORK_EXTENSION</lang>
+			<name>workExt</name>
+			<data>work_ext</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Mobile</title>
+			<lang>_I18N_MOBILE</lang>
+			<name>mobile</name>
+			<data>mobile</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Fax</title>
+			<lang>_I18N_FAX</lang>
+			<name>work_fax</name>
+			<data>work_fax</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Website</title>
+			<lang>_I18N_WEBSITE</lang>
+			<name>website</name>
+			<data>website</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Company Name</title>
+			<lang>_I18N_COMPANY_NAME</lang>
+			<name>company_name</name>
+			<type>textbox</type>
+			<data>company_name</data>
+		</form>
+
+		</div>
+		
+	</div>
+
+</data>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Disable Content Index</title>
+				<lang>_I18N_DISABLE_INDEX</lang>
+				<name>disable_content_index</name>
+				<data>disable_content_index</data>
+				<type>yesno</type>
+				<defaultval>f</defaultval>
+			</form>
+	
+</data>
+

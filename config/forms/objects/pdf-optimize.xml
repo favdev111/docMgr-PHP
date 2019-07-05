@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Optimization Level</title>
+				<lang>_I18N_OPTIMIZE_LEVEL</lang>
+				<name>optimize_level</name>
+				<data>optimize_level</data>
+				<type>select</type>
+				<option>
+					<title>Screen</title>
+					<data>screen</data>
+				</option>
+				<option>
+					<title>EBook</title>
+					<data>ebook</data>
+				</option>
+				<option>
+					<title>Printer</title>
+					<data>printer</data>
+				</option>
+				<option>
+					<title>Prepress</title>
+					<data>prepress</data>
+				</option>
+				<option>
+					<title>Default</title>
+					<data>default</data>
+				</option>
+			</form>
+
+			<form>
+				<title>Destination</title>
+				<lang>_I18N_DESTINATION</lang>
+				<name>destination</name>
+				<data>destination</data>
+				<type>select</type>
+				<option>
+					<title>Download</title>
+					<data>download</data>
+				</option>
+				<option>
+					<title>DocMGR</title>
+					<data>docmgr</data>
+				</option>
+			</form>
+
+</data>
+

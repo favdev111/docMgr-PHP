@@ -1,0 +1,77 @@
+
+body
+{
+  overflow:hidden;
+}
+
+#filter
+{
+  position:absolute;
+  margin-top:8px;
+  left:190px;
+}
+
+#notificationsDiv
+{
+	display:none;
+}
+
+#siteLocationLink
+{
+	display:none;
+}
+
+
+#siteSidebar
+{
+  display:none;
+}
+
+#siteContent 
+{
+  left:0px;   
+}
+
+#siteToolbar
+{
+  margin-left:0px;   
+}
+
+#siteHeaderImageContainer
+{
+  display:none;
+}
+
+#container   
+{
+  height:100%;
+}
+
+#siteCompanyLink
+{
+	display:none;
+}
+
+form
+{
+	margin:0px;
+	padding:0px;
+}
+
+#saveNotes
+{
+	width:390px;
+	height:200px;
+}
+
+#editor_content
+{
+	width:100%;
+	height:600px;
+}
+
+.toolbarSubRowHover {
+  padding:4px;
+  background-color:lightyellow;
+  cursor:pointer;
+}

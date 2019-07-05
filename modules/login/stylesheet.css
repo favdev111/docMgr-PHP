@@ -1,0 +1,60 @@
+
+#container
+{
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#welcomeMessage
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:16px;
+	padding:20px;
+	padding-top:100px;
+}
+
+#loginError
+{
+	text-align:center;
+	font-weight:bold;
+	color:red;
+	padding:10px;
+}
+
+.loginRow
+{
+  display:-webkit-box;
+  -webkit-box-orient:horizontal;
+  display:-moz-box;
+  -moz-box-orient:horizontal;
+  display:-ms-flexbox;
+  -ms-flex-direction:row;
+  display:flexbox;
+  flex-direction:row;
+	font-weight:bold;
+	width:500px;
+}
+
+.loginColumn
+{
+	width:250px;
+	padding:5px;
+}
+
+.loginColumn input
+{
+	margin-top:-5px;
+}
+
+.loginHeader
+{
+	text-align:right;
+}
+
+.loginSubmit
+{
+	margin-top:10px;
+	text-align:center;
+}

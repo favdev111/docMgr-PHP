@@ -1,0 +1,132 @@
+
+#wfListDiv
+{
+	overflow:auto;
+}
+
+/*
+#workflowDivider
+{
+	height:12px;
+	background-color:#E8E8E8;
+	border-bottom:1px solid #BABABA;
+	border-top:1px solid white;
+}
+*/
+
+#workflowTable
+{
+	width:100%;
+}
+
+.workflowHeaderCell
+{
+	text-align:center;
+	border-bottom:1px solid #BABABA;
+	border-right:1px solid #BABABA;
+	font-weight:bold;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+.workflowListRow
+{
+	border-right:1px solid #BABABA;
+}
+
+.workflowListRow:hover
+{
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+.workflowListRowSelected
+{
+	border-right:1px solid #BABABA;
+	background-color:lightblue;
+}
+
+.workflowListRowSelected:hover
+{
+	cursor:pointer;
+}
+
+.workflowListCell
+{
+	width:25%;
+	padding:4px;
+	border-bottom:1px solid #BABABA;
+}
+
+.workflowListCellCenter
+{
+	width:15%;
+	text-align:center;
+	padding:4px;
+	border-bottom:1px solid #BABABA;
+}
+
+
+#recipientTable
+{
+	width:100%;
+}
+
+.recipientHeaderCell
+{
+	text-align:center;
+	border-bottom:1px solid #BABABA;
+	border-right:1px solid #BABABA;
+	font-weight:bold;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+.recipientListRow
+{
+	border-right:1px solid #BABABA;
+}
+
+.recipientListRow:hover
+{
+	cursor:normal;
+}
+
+.recipientListRow td
+{
+	padding:4px;
+	border-bottom:1px solid #BABABA;
+}
+
+.recipientName
+{
+	width:20%;
+}
+
+.recipientDue
+{
+	width:20%;
+	text-align:center;
+}
+
+.recipientStatus
+{
+	width:10%;
+	text-align:center;
+}
+
+.recipientStage
+{
+	width:10%;
+	text-align:center;
+}
+
+.recipientComment
+{
+}
+
+
+#histListDiv
+{
+	overflow:auto;
+}

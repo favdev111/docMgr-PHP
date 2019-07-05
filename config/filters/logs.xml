@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+	<filter>
+		<title>Type</title>
+		<data>category</data>
+		<type>select</type>
+		<data_type>text</data_type>
+		<match>
+			<title>equals</title>
+			<data>equal</data>
+		</match>
+		<match>
+			<title>does not equal</title>
+			<data>notequal</data>
+		</match>
+		<option>
+			<title>Database Error</title>
+			<data>DB_ERROR</data>
+		</option>
+		<option>
+			<title>API Error</title>
+			<data>API_ERROR</data>
+		</option>
+		<option>
+			<title>Authentication Error</title>
+			<data>AUTH</data>
+		</option>
+		
+	</filter>
+
+	<filter>
+		<title>Log Timestamp</title>
+		<data>log_timestamp</data>
+		<type>textbox</type>
+		<data_type>date</data_type>
+		<match>
+			<title>on</title>
+			<data>on</data>
+		</match>
+		<match>
+			<title>before</title>
+			<data>before</data>
+		</match>
+		<match>
+			<title>after</title>
+			<data>after</data>
+		</match>
+	</filter>
+
+	<filter>
+		<title>Account</title>
+		<data>account_id</data>
+		<data_type>number</data_type>
+		<type>select</type>
+		<api_command>config_account_search</api_command>
+    <title_field>full_name</title_field>
+    <data_field>id</data_field>
+		<match>
+			<title>equals</title>
+			<data>equal</data>
+		</match>
+	</filter>
+
+</data>
+

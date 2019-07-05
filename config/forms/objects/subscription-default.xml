@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Object Checked Out</title>
+				<lang>_I18N_OBJ_CHECKED_OUT</lang>
+				<name>locked</name>
+				<data>locked</data>
+				<type>yesno</type>
+				<defaultval>f</defaultval>
+			</form>
+
+			<form>
+				<title>Object Checked In</title>
+				<lang>_I18N_OBJ_CHECKED_IN</lang>
+				<name>unlocked</name>
+				<data>unlocked</data>
+				<type>yesno</type>
+				<defaultval>f</defaultval>
+			</form>
+
+			<form>
+				<title>Comment posted for object</title>
+				<lang>_I18N_OBJ_COMMENTED</lang>
+				<name>comment_posted</name>
+				<data>comment_posted</data>
+				<type>yesno</type>
+				<defaultval>f</defaultval>
+			</form>
+
+			<form>
+				<title>Send email notification</title>
+				<lang>_I18N_SEND_FILE_WITH_NOTIFY</lang>
+				<name>notify_email</name>
+				<data>notify_email</data>
+				<type>yesno</type>
+				<defaultval>f</defaultval>
+			</form>
+		
+			<form>
+				<title>Send file with email notification</title>
+				<lang>_I18N_OBJ_EMAIL_NOTIFY_FILE</lang>
+				<name>notify_send_file</name>
+				<data>notify_send_file</data>
+				<type>yesno</type>
+				<defaultval>f</defaultval>
+			</form>
+	
+</data>
+

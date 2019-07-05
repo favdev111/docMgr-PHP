@@ -1,0 +1,159 @@
+
+.checkboxCell
+{
+	width:20px;
+}
+
+.nameCell
+{
+  -webkit-box-flex:1;
+  -moz-box-flex:1;
+  -ms-box-flex:1;
+  box-flex:1;
+}
+
+
+#treeContainer
+{
+	padding-top:5px;
+}
+
+#treeContainer input
+{
+	width:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+#treeContainer img
+{
+	margin:auto;
+}
+
+.logData
+{
+	padding:10px;
+}
+
+/**
+	column widths
+	*/
+.accountLoginCell
+{
+	width:200px;
+}
+
+.accountNameCell
+{
+  -webkit-box-flex:1;
+  -moz-box-flex:1;
+  -ms-box-flex:1;
+  box-flex:1;
+}
+
+.accountEmailCell
+{
+	width:250px;
+}
+
+.accountLastAccessCell
+{
+	width:200px;
+}
+
+.groupNameCell
+{
+  -webkit-box-flex:1;
+  -moz-box-flex:1;
+  -ms-box-flex:1;
+  box-flex:1;
+}
+
+.groupMembersCell
+{
+	width:400px;
+}
+
+.keywordNameCell
+{
+  -webkit-box-flex:1;
+  -moz-box-flex:1;
+  -ms-box-flex:1;
+  box-flex:1;
+}
+
+.keywordTypeCell
+{
+	width:250px;
+}
+
+.keywordRequiredCell
+{
+	width:250px;
+}
+
+.logTimeCell
+{
+	width:160px;
+}
+
+.logMessageCell
+{
+  -webkit-box-flex:1;
+  -moz-box-flex:1;
+  -ms-box-flex:1;
+  box-flex:1;
+}
+
+.logLevelCell
+{
+	width:50px;
+}
+
+.logCategoryCell
+{
+	width:110px;
+}
+
+.logIpCell
+{
+	width:110px;
+}
+
+.logAccountIdCell
+{
+	width:60px;
+}
+
+.logLoginCell
+{
+	width:100px;
+
+}
+
+.bookmarkNameCell
+{
+  -webkit-box-flex:1;
+  -moz-box-flex:1;
+  -ms-box-flex:1;
+  box-flex:1;
+}
+
+.bookmarkOptionCell
+{
+	width:90px;
+}
+
+.bookmarkDefaultPathCell
+{
+	width:170px;
+}
+
+.eformInputFormCell .parentRowImg
+{
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+}

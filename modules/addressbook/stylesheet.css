@@ -1,0 +1,42 @@
+body
+{
+  overflow:hidden;
+}
+
+#siteSidebar
+{
+  display:none;
+}
+
+#siteContent
+{
+	left:0px;
+}
+
+.nameCell
+{
+  -webkit-box-flex:1;
+  -moz-box-flex:1;   
+  -ms-box-flex:1;
+  box-flex:1;
+}
+
+.emailCell
+{
+  width:250px;
+}
+
+.workPhoneCell
+{
+  width:150px;
+}
+
+.mobileCell
+{
+  width:150px;
+}
+
+.homePhoneCell
+{
+  width:150px;
+}

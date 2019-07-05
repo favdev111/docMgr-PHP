@@ -1,0 +1,363 @@
+<?xml version="1.0"?>
+<data>
+
+<!--
+<object>
+	<extension>txt</extension>																//file extension
+	<proper_name>Text Document</proper_name>									//description
+	<mime_type>text/plain</mime_type>													//file mime type
+	<custom_type>txt</custom_type>														//internal docmgr type reference
+	<openoffice>odt</openoffice>															//the openoffice app that handles it
+	<openoffice_index>1</openoffice_index>										//can oo index it
+	<openoffice_thumb>1</openoffice_thumb>										//can oo thumb it
+	<open_with>dmeditor</open_with>													//open internally with this editor (dmeditor, text)
+																														//can pick multiple separated by comma
+	<openoffice_convert>1</openoffice_convert>								//can oo convert it to another type
+	<inline>1</inline>																				//use browser plugin to view (Think Acrobat PDF)
+	<allow_dmsave>1</allow_dmsave>														//allow docmgr editor to save	to this format.  
+</object>
+-->
+
+<object>
+	<extension>xml</extension>
+	<proper_name>XML Document</proper_name>
+	<mime_type>text/xml</mime_type>
+	<custom_type>markup</custom_type>
+</object>
+
+<object>
+	<extension>ics</extension>
+	<proper_name>ICalendar File</proper_name>
+	<mime_type>text/calendar</mime_type>
+	<custom_type>txt</custom_type>
+</object>
+
+<object>
+	<extension>pdf</extension>
+	<proper_name>Adobe PDF Document</proper_name>
+	<mime_type>application/pdf</mime_type>
+	<custom_type>pdf</custom_type>
+	<inline>1</inline>
+	<allow_dmsave>1</allow_dmsave>
+</object>
+
+<object>
+	<extension>eml</extension>
+	<proper_name>Email Document</proper_name>
+	<mime_type>message/rfc822</mime_type>
+	<custom_type>email</custom_type>
+</object>
+
+<!-- openoffice parsable -->
+
+<object>
+	<extension>txt</extension>
+	<proper_name>Text Document</proper_name>
+	<mime_type>text/plain</mime_type>
+	<custom_type>txt</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<open_with>text</open_with>
+	<openoffice_convert>1</openoffice_convert>
+	<allow_dmsave>1</allow_dmsave>
+</object>
+
+<object>
+	<extension>rtf</extension>
+	<proper_name>Rich Text Document</proper_name>
+	<mime_type>text/richtext</mime_type>
+	<custom_type>txt</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<open_with>dmeditor</open_with>
+	<openoffice_convert>1</openoffice_convert>
+	<allow_dmsave>1</allow_dmsave>
+</object>
+
+<object>
+	<extension>doc</extension>
+	<proper_name>MS Word Document</proper_name>
+	<mime_type>application/msword</mime_type>
+	<custom_type>doc</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+	<allow_dmsave>1</allow_dmsave>
+</object>
+
+<object>
+	<extension>xls</extension>
+	<proper_name>MS Excel Document</proper_name>
+	<mime_type>application/vnd.ms-excel</mime_type>
+	<custom_type>xls</custom_type>
+	<openoffice>ods</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+</object>
+
+<object>
+	<extension>docx</extension>
+	<proper_name>MS Word XML Document</proper_name>
+	<mime_type>application/msword</mime_type>
+	<custom_type>docx</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+</object>
+
+<!--
+<object>
+	<extension>epub</extension>
+	<proper_name>Electronic Book</proper_name>
+	<mime_type>application/epub+zip</mime_type>
+	<custom_type>epub</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+</object>
+-->
+
+<object>
+	<extension>xlsx</extension>
+	<proper_name>MS Excel XML Document</proper_name>
+	<mime_type>application/vnd.ms-excel</mime_type>
+	<custom_type>xlsx</custom_type>
+	<openoffice>ods</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+</object>
+
+<object>
+	<extension>pptx</extension>
+	<proper_name>MS Powerpoint XML Document</proper_name>
+	<mime_type>application/vnd.ms-powerpoint</mime_type>
+	<custom_type>pptx</custom_type>
+	<openoffice>odp</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+</object>
+
+<object>
+	<extension>ppt</extension>
+	<proper_name>MS Powerpoint Presentation</proper_name>
+	<mime_type>application/vnd.ms-powerpoint</mime_type>
+	<custom_type>ppt</custom_type>
+	<openoffice>odp</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+</object>
+
+<object>
+	<extension>wpd</extension>
+	<proper_name>WordPerfect Document</proper_name>
+	<mime_type>application/wordperfect</mime_type>
+	<custom_type>txt</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+</object>
+
+	<extension>doc</extension>
+	<proper_name>MS Word Document</proper_name>
+	<mime_type>application/msword</mime_type>
+	<custom_type>doc</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+	<allow_dmsave>1</allow_dmsave>
+
+
+<object>
+	<extension>html</extension>
+	<proper_name>Web Page</proper_name>
+	<mime_type>text/html</mime_type>
+	<custom_type>markup</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+	<allow_dmsave>1</allow_dmsave>
+</object>
+
+<object>
+	<extension>htm</extension>
+	<proper_name>Web Page</proper_name>
+	<mime_type>text/html</mime_type>
+	<custom_type>markup</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+</object>
+
+<object>
+	<extension>xhtml</extension>
+	<proper_name>XHTML Document</proper_name>
+	<mime_type>text/xhtml</mime_type>
+	<custom_type>markup</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+</object>
+
+<object>
+	<extension>sxc</extension>
+	<proper_name>OpenOffice Calc Document</proper_name>
+	<mime_type>application/vnd.oasis.opendocument.spreadsheet</mime_type>
+	<custom_type>ods</custom_type>
+	<openoffice>ods</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+</object>
+
+<object>
+	<extension>sxw</extension>
+	<proper_name>OpenOffice Writer Document</proper_name>
+	<mime_type>application/vnd.oasis.opendocument.text</mime_type>
+	<custom_type>odt</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+</object>
+
+<object>
+	<extension>sxi</extension>
+	<proper_name>OpenOffice Impress Document</proper_name>
+	<mime_type>application/vnd.oasis.opendocument.presentation</mime_type>
+	<custom_type>odp</custom_type>
+	<openoffice>odp</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+</object>
+
+<object>
+	<extension>odt</extension>
+	<proper_name>Open Document Text</proper_name>
+	<mime_type>application/vnd.oasis.opendocument.text</mime_type>
+	<custom_type>odt</custom_type>
+	<openoffice>odt</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+	<allow_dmsave>1</allow_dmsave>
+	<open_with>dmeditor</open_with>
+</object>
+
+<object>
+	<extension>ods</extension>
+	<proper_name>Open Document Spreadsheet</proper_name>
+	<mime_type>application/vnd.oasis.opendocument.spreadsheet</mime_type>
+	<custom_type>ods</custom_type>
+	<openoffice>ods</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+	<openoffice_convert>1</openoffice_convert>
+</object>
+
+<object>
+	<extension>odp</extension>
+	<proper_name>Open Document Presentation</proper_name>
+	<mime_type>application/vnd.oasis.opendocument.presentation</mime_type>
+	<custom_type>odp</custom_type>
+	<openoffice>odp</openoffice>
+	<openoffice_index>1</openoffice_index>
+	<openoffice_thumb>1</openoffice_thumb>
+</object>
+
+<!-- other -->
+
+<!-- images -->
+<object>
+	<extension>tiff</extension>
+	<proper_name>Tiff Image</proper_name>
+	<mime_type>image/tiff</mime_type>
+	<custom_type>tiff</custom_type>
+</object>
+
+<object>
+	<extension>tif</extension>
+	<proper_name>Tiff Image</proper_name>
+	<mime_type>image/tiff</mime_type>
+	<custom_type>tiff</custom_type>
+</object>
+
+<object>
+	<extension>mtif</extension>
+	<proper_name>Tiff Image</proper_name>
+	<mime_type>image/tiff</mime_type>
+	<custom_type>tiff</custom_type>
+</object>
+
+<object>
+	<extension>mtiff</extension>
+	<proper_name>Tiff Image</proper_name>
+	<mime_type>image/tiff</mime_type>
+	<custom_type>tiff</custom_type>
+</object>
+
+<object>
+	<extension>jpg</extension>
+	<proper_name>JPEG Image</proper_name>
+	<mime_type>image/jpeg</mime_type>
+	<custom_type>image</custom_type>
+</object>
+
+<object>
+	<extension>jpeg</extension>
+	<proper_name>JPEG Image</proper_name>
+	<mime_type>image/jpeg</mime_type>
+	<custom_type>image</custom_type>
+</object>
+
+<object>
+	<extension>bmp</extension>
+	<proper_name>Bitmap Image</proper_name>
+	<mime_type>image/bmp</mime_type>
+	<custom_type>image</custom_type>
+</object>
+
+<object>
+	<extension>png</extension>
+	<proper_name>PNG Image</proper_name>
+	<mime_type>image/png</mime_type>
+	<custom_type>image</custom_type>
+</object>
+
+<object>
+	<extension>gif</extension>
+	<proper_name>GIF Image</proper_name>
+	<mime_type>image/gif</mime_type>
+	<custom_type>image</custom_type>
+</object>
+
+<object>
+	<extension>psd</extension>
+	<proper_name>Photoshop Image</proper_name>
+	<mime_type>image/psd</mime_type>
+	<custom_type>image</custom_type>
+</object>
+
+<object>
+	<extension>cmyk</extension>
+	<proper_name>CMYK Image</proper_name>
+	<mime_type>image/cmyk</mime_type>
+	<custom_type>image</custom_type>
+</object>
+
+<object>
+	<extension>eps</extension>
+	<proper_name>EPS Image</proper_name>
+	<mime_type>image/eps</mime_type>
+	<custom_type>image</custom_type>
+</object>
+
+</data>

@@ -1,0 +1,436 @@
+
+/******************************************
+	modal box
+******************************************/
+
+#siteModal {
+	position: absolute; 
+	display:none;
+	background-color:whitesmoke;
+	-webkit-box-shadow: 0px 3px 6px rgba(0,0,0,0.25);
+	-ms-box-shadow: 0px 3px 6px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 3px 6px rgba(0,0,0,0.25);
+	box-shadow: 0px 3px 6px rgba(0,0,0,0.25);
+	z-index:0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	-webkit-user-select:none;
+  -webkit-text-size-adjust:none;
+	-ms-user-select:none;
+  -ms-text-size-adjust:none;
+	-moz-user-select:none;
+  -moz-text-size-adjust:none;
+	user-select:none;
+  text-size-adjust:none;
+}
+
+#siteModal.shown 
+{
+	z-index: 999;
+	display:block;
+}
+
+#siteModalNavbar
+{
+	width:100%;
+	text-align:right;
+	height:36px;
+	margin-top:-5px;
+	margin-bottom:5px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#586F8D), to(#224272));
+  background: -webkit-linear-gradient(top,#586F8D,#224272);
+  background: -ms-linear-gradient(top,#586F8D,#224272);
+  background: -moz-linear-gradient(top,#586F8D,#224272);
+  background: linear-gradient(top,#586F8D,#224272);
+
+	border-top-right-radius:5px;
+	-moz-border-top-right-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-ms-border-top-right-radius:5px;
+
+	border-top-left-radius:5px;
+	-moz-border-top-left-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	-ms-border-top-left-radius:5px;
+}
+
+#siteModalToolbar
+{
+	width:100%;
+	text-align:right;
+	height:36px;
+	margin-top:5px;
+	margin-bottom:-5px;
+
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#586F8D), to(#224272));
+  background: -webkit-linear-gradient(top,#586F8D,#224272);
+  background: -ms-linear-gradient(top,#586F8D,#224272);
+  background: -moz-linear-gradient(top,#586F8D,#224272);
+  background: linear-gradient(top,#586F8D,#224272);
+
+	border-bottom-right-radius:5px;
+	-moz-border-bottom-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-ms-border-bottom-right-radius:5px;
+
+	border-bottom-left-radius:5px;
+	-moz-border-bottom-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-ms-border-bottom-left-radius:5px;
+
+}
+
+#siteModalToolbar select
+{
+	margin-top:8px;
+}
+
+
+#siteModalContainer
+{
+}
+
+#siteModalNavbar .siteToolbarButton
+{
+	margin-top:6px;
+}
+
+#siteModalToolbar .siteToolbarButton
+{
+	margin-top:6px;
+}
+
+#siteModalNavbarLeft
+{
+	margin-left:10px;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	padding-top:10px;
+}
+
+#siteModalNavbarRight
+{
+	float:right;
+	margin-right:6px;
+	text-align:right;
+}
+
+#siteModalToolbarLeft
+{
+	text-align:left;
+	margin-left:6px;
+	float:left;
+}
+
+#siteModalToolbarLeft div
+{
+	float:left;
+}
+
+#siteModalToolbarRight
+{
+	float:right;
+	margin-right:6px;
+}
+
+#siteModalToolbarRight div
+{
+	float:left;
+}
+
+.siteModalHeader
+{
+	margin-top:0px;
+	margin-left:10px;
+	margin-bottom:5px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.siteModalCell
+{
+	padding-left:10px;
+	padding-right:10px; 
+	padding-top:5px;
+	padding-bottom:5px;
+
+}
+
+.siteModalCell .formHeader
+{
+	font-weight:bold;
+	margin-bottom:4px;
+}
+
+/***************************************
+	main toolbar search field
+***************************************/
+
+#siteModalSearchDiv {
+  background-image:url("../images/toolbar/search-field.gif");
+  width:182px;
+	margin-top:8px;
+  height:18px;
+	background-color:transparent;
+	border:0px solid transparent;
+	text-align:left;
+}
+ 
+#siteModalSearch {
+  font-size:11px;
+  height:12px;   
+  width:137px;      
+  margin-top:2px;
+	margin-left:20px;
+  border:0px solid white;
+}
+ 
+.siteModalSearchExpandImg
+{
+	margin-left:15px;
+	height:4px;
+	width:6px;
+	margin-bottom:-5px;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.siteModalCell a:link
+{
+  color:darkslategray;
+  text-decoration:underline;
+  font-weight:bold;
+}
+ 
+.siteModalCell a:visited
+{
+  color:darkslategray;
+  text-decoration:underline;
+  font-weight:bold;
+}
+ 
+.siteModalCell a:hover
+{
+  color:darkslategray;
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+ 
+#modalRecordHeader
+{
+		width:100%;
+    height:18px;
+    color:darkslategray;
+    font-weight:bold;   
+    border-bottom:1px solid #DADADA;
+  display:-webkit-box;
+  -webkit-box-orient:horizontal;
+  display:-moz-box;
+  -moz-box-orient:horizontal;
+  display:-ms-flexbox;
+  -ms-flex-direction:row;
+  display:flexbox;
+  flex-direction:row;
+}
+ 
+.modalRecordHeaderCell
+{
+    padding-left:10px;  
+}
+
+.modalRecordHeaderCell.six
+{
+    width:15%;
+}
+ 
+.modalRecordHeaderCell.five
+{
+    width:18%;
+}
+ 
+.modalRecordHeaderCell.four
+{
+    width:25%;
+}
+
+.modalRecordHeaderCell.three
+{
+    width:30%;
+}
+ 
+.modalRecordHeaderCell.two
+{
+    width:50%;
+}
+ 
+.modalRecordHeaderCell.option
+{
+    width:12%;
+    text-align:center;
+}
+ 
+.modalRecordHeaderCell.short
+{
+    width:40px;
+}
+
+#modalRecordContainer
+{
+    height:300px;
+    overflow-y:auto;
+		-webkit-overflow-scrolling:touch;
+}
+
+.modalRecordRow
+{
+    height:36px;
+    background-color:white;
+    border-bottom:1px solid #DADADA;
+    font-size:14px;
+		cursor:default;
+		width:100%;
+  display:-webkit-box;
+  -webkit-box-orient:horizontal;
+  display:-moz-box;
+  -moz-box-orient:horizontal;
+  display:-ms-flexbox;
+  -ms-flex-direction:row;
+  display:flexbox;
+  flex-direction:row;
+}
+
+.modalRecordRow:active
+{
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#058cf5), to(#015fe7));
+  background: -webkit-linear-gradient(top,#586cf5,#015fe7);
+  background: -ms-linear-gradient(top,#586cf5,#015fe7);
+  background: -moz-linear-gradient(top,#586cf5,#015fe7);
+  background:	linear-gradient(top,#586cf5,#015fe7);
+  color:white;
+  cursor:default;
+}
+
+.modalRecordRowCell input
+{
+	margin-right:8px;
+	margin-top:-3px;
+}
+ 
+.modalRecordRowCell
+{
+    padding-top:10px;
+		padding-left:10px;
+}
+
+.modalRecordRowCell.six
+{
+    width:15%;
+}
+ 
+.modalRecordRowCell.five
+{
+    width:18%;
+}
+ 
+.modalRecordRowCell.four
+{
+    width:25%;
+}
+
+.modalRecordRowCell.three
+{
+    width:30%;
+}
+ 
+.modalRecordRowCell.two
+{
+    width:50%;
+}
+
+.modalRecordRowCell.one
+{
+    width:80%;
+}
+ 
+.modalRecordRowCell.short
+{
+    width:40px;
+    padding-top:3px;
+}
+ 
+.modalRecordRowCell.option
+{
+    width:12%;
+    text-align:center;
+}
+
+.modalRecordRowCell.option img
+{
+	  margin-left:3px;
+		margin-right:3px;
+}
+ 
+ 
+.modalRecordRowImage
+{
+    margin-top:2px;
+    height:27px;   
+    width:27px;    
+}
+
+/****/
+
+#siteModalDividerBar
+{
+	width:100%;
+	text-align:right;
+	height:36px;
+	margin-top:-5px;
+	margin-bottom:5px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#586F8D), to(#224272));
+  background: -webkit-linear-gradient(top,#586F8D,#224272);
+  background: -ms-linear-gradient(top,#586F8D,#224272);
+  background: -moz-linear-gradient(top,#586F8D,#224272);
+  background: linear-gradient(top,#586F8D,#224272);
+}
+
+#siteModalDividerBar .siteModalDividerBarButton
+{
+	margin-top:10px;
+	margin-right:5px;
+	color:white;
+}
+
+#siteModalDividerBar .siteModalDividerBarButton:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#siteModalDividerBarLeft
+{
+	margin-left:10px;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	padding-top:10px;
+}
+
+#siteModalDividerBarRight
+{
+	float:right;
+	margin-right:6px;
+	text-align:right;
+}
+
+
+
+

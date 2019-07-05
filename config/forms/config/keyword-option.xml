@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Name</title>
+				<name>name</name>
+				<data>name</data>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Sort Order</title>
+				<name>sort_order</name>
+				<data>sort_order</data>
+				<type>textbox</type>
+			</form>
+
+</data>

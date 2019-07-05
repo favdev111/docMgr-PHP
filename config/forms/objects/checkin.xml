@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Select File</title>
+				<lang>_I18N_SELECT_FILE</lang>
+				<name>uploadForm</name>
+				<data>uploadForm</data>
+				<type>file</type>
+			</form>
+
+			<form>
+				<title>Custom Version</title>
+				<lang>_I18N_CUSTOM_VERSION</lang>
+				<name>custom_version</name>
+				<data>custom_version</data>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Revision Notes</title>
+				<lang>_I18N_REVISION_NOTES</lang>
+				<name>revision_notes</name>
+				<data>revision_notes</data>
+				<type>textarea</type>
+			</form>
+
+			<div id="checkinProgressContainer"></div>
+				
+</data>
+

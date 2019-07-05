@@ -1,0 +1,120 @@
+
+/***************************************************
+	sidebar
+***************************************************/
+
+#siteSidebar
+{
+  width:220px; 
+  height:100%;
+  border-right:1px solid #E0E0E0; 
+  color:darkslategray;
+  background:#F5F5F5;
+  -webkit-user-select:none;
+  -webkit-text-size-adjust:none;
+  -ms-user-select:none;
+  -ms-text-size-adjust:none;
+  -moz-user-select:none;
+  -moz-text-size-adjust:none;
+	overflow-y:auto;
+	overflow-x:hidden;
+	-webkit-overflow-scrolling:touch;
+}
+
+.siteSidebarHeader
+{
+  background-color:#F5F5F5;
+  border-bottom:1px solid #E0E0E0;
+  padding-top:11px;
+  padding-bottom:9px;
+  padding-left:10px;
+  color:#989898;
+	
+}
+
+.siteSidebarHeaderImage
+{
+  float:right;
+  margin-right:5px;  
+	width:16px;
+	height:16px;
+	margin-top:-1px;
+}
+
+.siteSidebarHeaderImage:hover
+{
+	cursor:pointer;
+}
+
+.siteSidebarRow
+{
+  font-weight:bold;
+  border-bottom:1px solid #E0E0E0;
+  background-color:#F5F5F5;
+	text-overflow: ellipsis;
+	height:36px;
+	width:100%;
+}
+
+.siteSidebarRowLabel
+{
+	margin-top:-26px;
+	margin-right:5px;
+	margin-left:10px;
+}
+
+.siteSidebarRowExpandIcon
+{
+  margin-right:7px;
+  width:8px;
+  height:8px;
+	margin-top:14px;
+	margin-bottom:14px;
+}
+
+.siteSidebarRowIcon
+{
+  margin-right:8px;
+  width:20px;
+  height:20px;
+	margin-top:8px;
+	margin-bottom:10px;
+}
+
+.siteSidebarRowRightIcon
+{
+  margin-right:7px;
+  width:16px;
+  height:16px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.siteSidebarRow:hover
+{
+  cursor:default;
+}
+
+.siteSidebarRowSelected
+{
+  background-color:#E8E9ED;
+}
+
+.siteSidebarRow:active
+{
+  background-color:#E8E9ED;
+}
+
+.siteSidebarSub
+{
+  display:none;
+  -webkit-box-orient:vertical;
+  display:-moz-box;   
+  -moz-box-orient:vertical;   
+  display:-ms-box;
+  -ms-box-orient:vertical;  
+  display:box;    
+  box-orient:vertical;    
+  width:100%;
+}
+

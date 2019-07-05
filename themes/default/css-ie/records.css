@@ -1,0 +1,832 @@
+
+/******************************************
+	main container and scroller 
+******************************************/
+
+#recordListContainer
+{
+  -webkit-user-select:none;
+  -webkit-text-size-adjust:none;
+  -moz-user-select:none;
+  -moz-text-size-adjust:none;
+  -ms-user-select:none;
+  -ms-text-size-adjust:none;
+  user-select:none;
+  text-size-adjust:none;
+}
+
+#recordList
+{
+	height:225px;
+	width:100%;
+  border-top:1px solid #EBEBEB;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+}
+
+#recordListToolbar
+{
+	background-color:#E8E8E8;
+	border-bottom:1px solid #BABABA;
+	height:25px;
+}
+
+#recordListFooter
+{
+	background-color:whitesmoke;
+	border-top:1px solid #BABABA;
+	border-bottom:1px solid white;
+	height:25px;
+}
+
+#recordListPager
+{
+	background-color:whitesmoke;
+	border-top:1px solid white;
+	border-bottom:1px solid #BABABA;
+	height:25px;
+}
+
+/********************************************
+	header section
+********************************************/
+
+#recordListHeader
+{
+	height:18px;
+}
+
+.recordListHeaderRow
+{
+	width:100%;
+	padding-top:3px;
+	font-size:11px;
+	color:#9a9a9a;
+	font-weight:bold;
+}
+
+
+.recordListHeaderCell
+{
+	float:left;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-overflow:ellipsis;
+}
+
+.recordListHeaderCell:hover
+{
+	cursor:default;
+}
+
+.recordListHeaderCell.one
+{
+	width:95%;
+}
+
+.recordListHeaderCell.two
+{
+	width:48%;
+}
+
+.recordListHeaderCell.three
+{
+	width:32%;
+}
+
+.recordListHeaderCell.four
+{
+	width:24%;
+}
+
+.recordListHeaderCell.five
+{
+	width:19%;
+}
+
+.recordListHeaderCell.six
+{
+	width:14%;
+}
+
+.recordListHeaderCell.seven
+{
+	width:12%;
+}
+
+.recordListHeaderCell.eight
+{
+	width:8%;
+}
+
+.recordListHeaderCell.option
+{
+	width:10%;
+}
+
+.recordHeaderRowSelect
+{
+	float:left;
+	width:36px;
+	padding-top:2px;
+}
+
+.recordHeaderRowSelectImage
+{
+	margin-left:12px;
+	width:8px;
+	height:8px;
+	display:none;
+}
+
+#recordListContainer.multiselect .recordHeaderRowSelectImage
+{
+	display:block;
+}
+
+
+/********************************
+	results section
+********************************/
+#recordList
+{
+	width:100%;
+}
+
+.recordListRow
+{
+	z-index:5;
+  border-bottom:1px solid #EBEBEB;
+	width:100%;
+}
+
+.recordListRow:hover
+{
+	cursor:default;
+}
+
+.recordListRow.activeMode:active
+{
+  background: -ms-linear-gradient(top,#586cf5,#015fe7);
+  background: linear-gradient(top,#586cf5,#015fe7);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#586cf5', endColorstr='#015fe7');
+	color:white;
+	cursor:default;
+}
+
+.recordListRow.deleted
+{
+	color:#DADADA;
+}
+
+.recordListRow.selectMode:active
+{
+  background: -ms-linear-gradient(top,#586cf5,#015fe7);
+  background: linear-gradient(top,#586cf5,#015fe7);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#586cf5', endColorstr='#015fe7');
+	color:white;
+}
+
+.recordListRow.selectMode.selected
+{
+  background: -ms-linear-gradient(top,#586cf5,#015fe7);
+  background: linear-gradient(top,#586cf5,#015fe7);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#586cf5', endColorstr='#015fe7');
+	color:white;
+}
+
+.recordListRow a:link
+{
+  color:darkslategray;
+  text-decoration:underline;
+  font-weight:bold;
+}
+ 
+.recordListRow a:visited
+{
+  color:darkslategray;
+  text-decoration:underline;
+  font-weight:bold;
+}
+ 
+.recordListRow a:hover
+{
+  color:darkslategray;
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+.recordListRowSelect
+{
+	float:left;
+	width:36px;
+	padding-top:7px;
+}
+
+.recordListRowSelectImage
+{
+	margin-left:7px;
+	display:none;
+	width:18px;
+	height:18px;
+}
+
+#recordListContainer.multiselect .recordListRow.selectMode .recordListRowSelectImage
+{
+	display:block;
+}
+
+#recordListContainer.multiselect .recordListRow.deleted .recordListRowSelectImage
+{
+	display:none;
+}
+
+#recordListContainer.multiselect .recordListRowImage
+{
+  display:none;
+} 
+
+.recordListRowImage
+{
+  display:block;
+  margin-left:9px;
+  margin-top:1px;
+}
+
+#recordList.multiselect .recordListRow.selectMode .recordListRowImage
+{
+	display:none;
+}
+
+
+
+/*******************************
+	record cell
+*******************************/
+
+.recordListRowCell
+{
+	padding-top:11px;
+	padding-bottom:7px;
+	text-overflow:ellipsis;
+	float:left;
+}
+
+.recordListRowCellImg
+{
+	width:4%;
+	float:left;
+}
+
+.recordListRowCellImg img
+{
+  width:22px;
+  height:22px;
+  margin-left:4px;
+  margin-top:2px;
+}
+
+.recordListRowCell.one
+{
+	width:95%;
+}
+
+.recordListRowCell.two
+{
+	width:48%;
+}
+
+.recordListRowCell.three
+{
+	width:32%;
+}
+
+.recordListRowCell.four
+{
+	width:24%;
+}
+
+.recordListRowCell.five
+{
+	width:19%;
+}
+
+.recordListRowCell.six
+{
+	width:14%;
+}
+
+.recordListRowCell.seven
+{
+	width:12%;
+}
+
+.recordListRowCell.eight
+{
+	width:8%;
+}
+
+.recordListRowCell.option
+{
+	width:16%;
+}
+
+.recordListRowCell.option img
+{
+	margin-left:6px;
+	margin-right:6px;
+	margin-top:-2px;
+}
+
+.recordListRowCell select
+{
+	margin-top:-8px;
+}
+
+
+/*******************************
+	record table view
+*******************************/
+.recordToolbar
+{
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#565f66), to(#393d44));
+  background: -webkit-linear-gradient(top,#565f66,#393d44);
+  background: -ms-linear-gradient(top,#565f66,#393d44);
+  background: -moz-linear-gradient(top,#565f66,#393d44);
+  background: linear-gradient(top,#565f66,#393d44);
+  border-bottom:1px solid #d5d8da;
+  border-top:1px solid #5d6368;
+	height:50px;
+}
+
+
+/****************************
+	not needed right now
+****************************/
+
+.recordListHeaderRow section
+{
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	padding-left:8px;
+	padding-right:8px;
+}
+
+.recordListHeaderRow section img
+{
+	margin-left:3px;
+}
+
+.recordListHeaderRow section:active
+{
+	background-color:#ebebeb;
+}
+
+.recordListHeaderRow section:hover
+{
+	cursor:default;
+}
+
+.recordListHeaderCell
+{
+}
+
+#recordListSelect
+{
+	opacity:0.0;
+	border:0px;
+	height:0px;
+	position:absolute;
+	z-index:-1;
+}
+
+#recordListSelect section
+{
+	margin-top:2px;
+}
+
+#recordListSelect.shown {
+	height:16px;
+	-webkit-transition: height .15s ease-out, opacity .25s ease-out;
+	-moz-transition: height .15s ease-out, opacity .25s ease-out;
+	-ms-transition: height .15s ease-out, opacity .25s ease-out;
+	transition: height .15s ease-out, opacity .25s ease-out;
+	opacity:1.0;
+	border-bottom:1px solid #EBEBEB;
+	border-right:1px solid #EBEBEB;
+	position:relative;
+	z-index:1;
+}
+
+#recordListSelect.shown section
+{
+}
+
+.recordListControlExpandImg
+{
+	width:6px;
+	height:4px;
+}
+
+
+.recordListControlMenu
+{
+	display:none;
+	color:black;
+	padding-top:5px;
+	padding-bottom:5px;
+	position:absolute;
+	border:1px solid #9A9A9A;
+	border-radius:5px;
+	-webkit-box-shadow: 0 5px 5px #9A9A9A;
+	-moz-box-shadow: 0 5px 5px #9A9A9A;
+	-ms-box-shadow: 0 5px 5px #9A9A9A;
+	box-shadow: 0 5px 5px #9A9A9A;
+	width:100px;
+	font-size:12px;
+	font-weight:normal;
+	z-index:5;
+	text-align:left;
+	background-color:white;
+}
+
+.recordListControlMenu div img
+{
+	height:10px;
+	width:10px;
+}
+
+.recordListControlMenu div
+{
+	padding:5px;
+}
+
+.recordListControlMenu hr
+{
+	color:black;
+	background-color:black;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.recordListControlMenu div:hover
+{
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#058cf5), to(#015fe7));
+  background: -webkit-linear-gradient(top,#586cf5,#015fe7);
+  background: -ms-linear-gradient(top,#586cf5,#015fe7);
+  background: -moz-linear-gradient(top,#586cf5,#015fe7);
+  background: linear-gradient(top,#586cf5,#015fe7);
+	cursor:default;
+	color:white;
+}
+
+
+#recordListControlView
+{
+	margin-left:-15px;
+}
+
+#recordListSpacer
+{
+	-webkit-box-flex:2;
+	-moz-box-flex:2;
+	-ms-box-flex:2;
+	box-flex:2;
+}
+
+#recordListView
+{
+	text-align:right;
+	padding-right:5px;
+}
+
+
+#recordListSort
+{
+	padding-left:4px;
+	padding-right:4px;
+}
+
+#recordListControl button
+{
+	color:gray;
+	font-weight:bold;
+	font-size:10px;
+	background-color:transparent;
+	border:0px solid transparent;
+}
+
+.recordToolbarCell {
+  background-color:#E8E8E8;
+  white-space:nowrap;
+  padding-top:5px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom:4px;
+}
+ 
+.recordToolbarCell:hover {
+  cursor:pointer;   
+  background-color:white;
+}
+ 
+.recordToolbarCell img {
+  margin-right:4px;
+  margin-top:-1px; 
+}
+
+.recordPagerResults
+{
+	margin-left:10px;
+	margin-top:6px;
+	width:50%;
+	font-weight:bold;
+}
+
+.recordPagerPages
+{
+}
+
+.recordPagerTitle
+{
+	float:right;
+	font-size:12px;
+	font-weight:bold;
+	margin-top:6px;
+	margin-right:20px;
+}
+
+.recordPagerActive
+{
+	float:left;
+	margin-left:3px;
+	margin-right:3px;
+	color:darkslategray;
+}
+
+.recordPagerActive:hover
+{
+	cursor:pointer;
+	color:darkslateblue;
+}
+
+.recordPagerInactive
+{
+	float:left;
+	margin-left:3px;
+	margin-right:3px;
+	color:lightgray;
+}
+
+.recordPagerActive.current
+{
+	text-decoration:underline;
+}
+
+#recordDetail
+{
+	height:225px;
+	width:100%;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+}
+
+#recordDetailHeader
+{
+	min-height:50px;
+	border-bottom:1px solid #EBEBEB;
+	background-color:white;
+	padding-left:10px;
+	padding-right:10px;
+	width:100%;
+}
+
+#recordDetailSeparator
+{
+	height:10px;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#f1f1f1));
+  background: -webkit-linear-gradient(top,#ffffff,#f1f1f1f1);
+  background: -ms-linear-gradient(top,#ffffff,#f1f1f1f1);
+  background: -moz-linear-gradient(top,#ffffff,#f1f1f1f1);
+  background: linear-gradient(top,#ffffff,#f1f1f1f1);
+	border-top:1px solid #CBCBCB;
+	border-bottom:1px solid #CBCBCB;
+}
+
+#recordDetailSeparator:hover
+{
+	cursor:ns-resize;
+}
+
+/************* table css ****************/
+
+#recordTableHeader
+{
+}
+
+#recordTableBody
+{
+}
+
+.recordTableHeader
+{
+}
+
+.recordTableHeaderCell
+{
+	font-size:11px;
+	color:#9a9a9a;
+	text-align:center;
+	font-weight:bold;
+	border-bottom:1px solid #EBEBEB;
+	padding-left:8px;
+	padding-right:8px;
+}
+
+.recordTableRow
+{
+}
+
+.recordTableRow:hover
+{
+	cursor:default;
+	background-color:lightyellow;
+}
+
+
+.recordTableRowCell
+{
+	white-space:nowrap;
+	padding-left:8px;
+	padding-right:8px;
+	padding-top:9px;
+	padding-bottom:9px;
+	border-bottom:1px solid #EBEBEB;
+}
+
+/************* filter css ***************/
+
+#recordListFilterContainer
+{
+}
+
+.recordListFilter
+{
+	width:100%;
+	background-color:whitesmoke;
+	border-top:1px solid white;
+	border-bottom:1px solid #BABABA;
+	height:25px;
+}
+
+.recordListFilter div
+{
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:1px;
+}
+
+.recordListFilter img
+{
+	width:16px;
+	height:16px;
+	margin-top:3px;
+	margin-right:6px;
+}
+
+.recordListFilter input
+{
+	margin-left:5px;
+}
+
+.recordListFilter select
+{
+	margin-left:5px;
+}
+
+.recordListFilterSpacer
+{
+}
+
+.recordListFilterOptions
+{
+	position:absolute;
+	right:0px;
+}
+
+.recordListFilter .recordListFilterTitle
+{
+	font-weight:bold;
+	font-size:14px;
+	padding-top:4px;
+}
+
+
+
+#recordListContainer.thumbnail #recordListHeader
+{
+	display:none;
+}
+
+#recordListContainer.thumbnail .recordListRow
+{
+	display:block;
+	float:left;
+	width:200px;
+	height:200px;
+	border:1px solid white;
+}
+
+#recordListContainer.thumbnail .recordListRow:hover
+{
+	border:1px solid #EBEBEB;
+}
+
+#recordListContainer.thumbnail .recordListRowCell
+{
+	width:200px;
+	text-align:center;
+}
+
+#recordListContainer.thumbnail .recordListRowSelect
+{
+	width:200px;
+}
+
+#recordListContainer.thumbnail .recordListRowImage
+{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+#recordListContainer.thumbnail .recordListRowSelectImage
+{
+	visibility:hidden;
+	display:block;
+}
+
+#recordListContainer.thumbnail .recordListRow.selectMode .recordListRowSelectImage
+{
+	display:block;
+	visibility:hidden;
+}
+
+#recordListContainer.thumbnail.multiselect .recordListRow.selectMode .recordListRowSelectImage
+{
+	display:block;
+	visibility:visible;
+}
+
+
+#recordListBreadcrumbs
+{
+  background-color:whitesmoke;
+  border-top:1px solid white;
+  border-bottom:1px solid #BABABA;
+  height:25px;
+  display:none;
+}
+
+#recordListBreadcrumbs div
+{
+  margin-top:6px;
+  margin-left:5px;
+}
+
+#recordListBreadcrumbs a
+{
+  margin-left:5px; 
+  margin-right:5px;
+  font-weight:bold;
+  color:darkslategray;
+}
+ 
+#recordListBreadcrumbs a:link
+{
+  color:darkslategray;
+}
+
+#recordListBreadcrumbs a:visited
+{
+  color:darkslategray;
+}
+
+#recordListBreadcrumbs a:hover
+{
+  color:darkslategray;
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+#recordListBreadcrumbs img
+{
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:-1px;
+}

@@ -1,0 +1,61 @@
+
+.searchToolbar {
+  background-color:#E8E8E8;
+  border-top:1px solid white;
+  border-bottom:1px solid #BABABA;
+	height:25px;
+}
+
+#searchFilters {
+}
+
+.searchCell {
+	float:left;
+	padding-top:5px;
+	padding-left:4px;
+	padding-right:4px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.searchContentCell {
+	float:left;
+	padding-top:5px;
+	padding-left:2px;
+	padding-right:2px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.addremDiv {
+	float:right;
+	text-align:right;
+	margin-right:10px;
+	padding:4px;
+}
+
+.addremDiv img {
+	cursor:pointer;
+	margin-left:8px;
+}
+
+.addremDiv img:hover {
+	cursor:pointer;
+}
+
+.searchCell select {
+	margin-top:-2px;
+}
+
+.searchCell input {
+	margin-top:-2px;
+}
+
+.searchContentCell select {
+	margin-top:-2px;
+}
+
+.searchContentCell input {
+	margin-top:-2px;
+}
+

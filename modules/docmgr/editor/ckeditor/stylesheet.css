@@ -1,0 +1,198 @@
+
+.siteCenterColumnNoHeader {
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+
+.toolbarBtn {
+  padding:4px;
+}
+
+.toolbarBtnHover {
+  padding-top:6px;
+  padding-bottom:6px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:pointer;
+  background-color:white;
+}
+
+.toolbarBtn:hover {
+  cursor:pointer;
+  background-color:white;
+}
+
+#editorControls {
+  background-color:#DADADA;
+  border:1px solid darkslategray;
+}
+
+.toolbarCell img {
+	height:14px;
+	margin-bottom:-2px;
+}
+
+.toolbarCell {
+  background-color:#DADADA;
+	white-space:nowrap;
+	height:22px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.toolbarCell:hover {
+	cursor:pointer;
+	background-color:white;
+}
+
+.toolbarCell:hover .toolbarSub {
+	display:block;
+	margin-top:0px;
+	margin-left:-13px;
+	position:absolute;
+	background-color:white;
+	width:196px;
+	z-index:500;
+	border:1px solid black;
+}
+
+.toolbarCell select {
+	font-size:10px;
+}
+
+.toolbarSub {
+	display:none;
+}
+
+.toolbarSubRow {
+	padding:4px;
+}
+
+.toolbarSubRow:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+
+
+/***********************
+  buttons
+***********************/
+.toolbarButton {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+}
+
+.mozBtnImg {
+  margin-right:5px;
+  margin-top:-2px;
+  margin-left:-2px;
+}
+
+.ieBtnImg {   
+  height:16px;
+  margin-top:-2px;
+  padding-left:5px; 
+  padding-right:2px;
+  margin-right:-5px;
+}
+
+/***********************
+  template window
+***********************/
+#templatewin {
+  width:500px;
+  height:350px;
+  -moz-border-radius:8px;
+  background-color:lightyellow;
+  border:1px solid black;
+  position:absolute;
+  z-index:10;
+}
+ 
+.closeImage {
+  float:right;
+  margin:5px; 
+}
+ 
+.templateHeader {
+  font-weight:bold;
+  font-size:14px;  
+  margin:10px;     
+}
+ 
+.templateSectionHeader {
+  font-weight:bold;
+  margin:5px;
+}
+ 
+.templateContent {
+  margin:5px;
+  margin-left:10px;
+}
+ 
+.leftColumn {
+  float:left;
+  width:47%; 
+}
+ 
+.rightColumn {
+  float:left; 
+  width:47%;  
+}
+ 
+#privateList {
+  border:1px solid #DADADA;
+  width:200px;
+  height:250px;
+  overflow:auto;
+  background-color:white;
+}
+ 
+#pubList {
+  border:1px solid #DADADA;
+  width:200px;
+  height:250px;
+  overflow:auto;
+  background-color:white;
+}
+ 
+.templateList {
+  padding:2px; 
+  list-style-type:none;
+  border-bottom:1px solid #DADADA;
+}
+ 
+.templateList:hover {
+  background-color:lightblue;
+  cursor:pointer;
+}
+
+#letterToolbar select {
+	font-size:10px;
+}
+
+.closeButton {
+	font-size:10px;
+	float:right;
+}
+
+#letterFooter {
+	background-color:#DADADA;
+	border:1px solid darkslategray;
+}
+
+#letterNameDiv {
+	float:left;
+	width:49%;
+	padding-left:5px;
+	font-weight:bold;
+}
+
+#letterMessages {
+	float:left;
+	width:49%;
+	text-align:right;
+}

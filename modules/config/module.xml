@@ -1,0 +1,12 @@
+	<module>
+		<module_name>System Configuration</module_name>
+		<link_name>config</link_name>
+		<hidden>0</hidden>
+		<perm_error>access the Administration Tools</perm_error>
+		<auth_only>1</auth_only>
+		<sort_order>9</sort_order>
+		<module_description></module_description>
+		<permissions>ADMIN</permissions>
+		<permissions>EDIT_PROFILE</permissions>
+	</module>
+

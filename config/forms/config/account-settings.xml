@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+		<!--
+		<form>
+			<title>Use MS Office Control</title>
+			<name>editor</name>
+			<lang>_I18N_USE_MSOFFICE</lang>
+			<data>editor</data>
+			<type>select</type>
+			<defaultval>web</defaultval>
+			<option>
+				<title>Yes</title>
+				<lang>_I18N_YES</lang>
+				<data>msoffice</data>
+			</option>
+			<option>
+				<title>No</title>
+				<lang>_I18N_NO</lang>
+				<data>web</data>
+			</option>
+		</form>
+		-->
+		<form>
+			<title>Language</title>
+			<lang>_I18N_LANGUAGE</lang>
+			<name>language</name>
+			<data>language</data>
+			<type>select</type>
+			<api_command>config_account_getlanguages</api_command>
+		</form>
+
+		<form>
+			<title>Email Notifications</title>
+			<name>email_notifications</name>
+			<data>email_notifications</data>
+			<type>yesno</type>
+			<defaultval>f</defaultval>
+		</form>
+
+</data>
+
+

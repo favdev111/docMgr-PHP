@@ -1,0 +1,9 @@
+	<module>
+		<module_name>Workflow</module_name>
+		<link_name>workflow</link_name>
+		<hidden></hidden>
+		<sort_order>4</sort_order>
+		<module_description></module_description>
+		<theme>default</theme>
+	</module>
+

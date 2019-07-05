@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<perm>
+		<name>User is object owner/administrator</name>
+		<bitpos>0</bitpos>
+		<define_name>OBJ_ADMIN</define_name>
+	</perm>
+	<perm>
+		<name>User can manage object</name>
+		<bitpos>1</bitpos>
+		<define_name>OBJ_MANAGE</define_name>
+	</perm>
+	<perm>
+		<name>User can edit object</name>
+		<bitpos>2</bitpos>
+		<define_name>OBJ_EDIT</define_name>
+	</perm>
+
+	<perm>
+		<name>User can view object</name>
+		<bitpos>3</bitpos>
+		<define_name>OBJ_VIEW</define_name>
+	</perm>
+	<perm>
+		<name>User can check-in object</name>
+		<bitpos>4</bitpos>
+		<define_name>OBJ_CHECKIN</define_name>
+	</perm>
+	<perm>
+		<name>User has a workflow task to perform on the object</name>
+		<bitpos>5</bitpos>
+		<define_name>OBJ_TASK</define_name>
+	</perm>
+</data>		
+

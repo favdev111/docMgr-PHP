@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Name</title>
+				<name>name</name>
+				<data>name</data>
+				<lang>_I18N_NAME</lang>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Default Browse Path</title>
+				<lang>_I18N_DEFAULT_BROWSE_PATH</lang>
+				<name>default_browse</name>
+				<data>default_browse</data>
+				<type>yesno</type>
+			</form>
+
+			<form>
+				<title>Bookmark Collection</title>
+				<lang>_I18N_BOOKMARK_COLLECTION</lang>
+				<name>object_id</name> 
+				<data>object_id</data> 
+				<type>objectTree</type>
+			</form>
+
+</data>
+

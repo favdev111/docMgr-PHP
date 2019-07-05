@@ -1,0 +1,7 @@
+	<module>
+		<module_name>Address Book</module_name>
+		<link_name>addressbook</link_name>
+		<hidden>0</hidden>
+		<auth_only>1</auth_only>
+	</module>
+

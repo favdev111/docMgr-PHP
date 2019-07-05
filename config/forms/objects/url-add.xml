@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Name</title>
+				<lang>_I18N_NAME</lang>
+				<name>name</name>
+				<data>name</data>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Address</title>
+				<lang>_I18N_ADD_WEBSITE</lang>
+				<name>url</name>
+				<data>url</data>
+				<type>textbox</type>
+			</form>
+
+			<form>
+				<title>Summary</title>
+				<lang>_I18N_SUMMARY</lang>
+				<summary>summary</summary>
+				<data>summary</data>
+				<type>textarea</type>
+			</form>
+
+	
+</data>
+

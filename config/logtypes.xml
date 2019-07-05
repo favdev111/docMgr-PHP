@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+	<log_type>
+		<name>Object Created</name>
+		<link_name>OBJ_CREATED</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Updated</name>
+		<link_name>OBJ_UPDATED</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Properties Updated</name>
+		<link_name>OBJ_PROP_UPDATE</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Permissions Updated</name>
+		<link_name>OBJ_PERM_UPDATE</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Viewed</name>
+		<link_name>OBJ_VIEWED</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Locked</name>
+		<link_name>OBJ_LOCKED</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Unlocked</name>
+		<link_name>OBJ_UNLOCKED</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Version Promoted</name>
+		<link_name>OBJ_VERSION_PROMOTE</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Moved</name>
+		<link_name>OBJ_MOVED</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Emailed</name>
+		<link_name>OBJ_EMAILED</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Viewed Via Share Link</name>
+		<link_name>OBJ_SHARELINK_VIEWED</link_name>
+	</log_type>
+
+	<!--
+	<log_type>
+		<name>Object Emailed To Anonymous Recipient</name>
+		<link_name>OBJ_ANON_EMAILED</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Viewed By Anonymous Recipient</name>
+		<link_name>OBJ_ANON_VIEWED</link_name>
+	</log_type>
+	-->
+
+	<log_type>
+		<name>No viruses found in scan</name>
+		<link_name>OBJ_VIRUS_PASS</link_name>
+	</log_type>
+	
+	<log_type>
+		<name>Viruses found in scan</name>
+		<link_name>OBJ_VIRUS_FAIL</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Error scanning the file</name>
+		<link_name>OBJ_VIRUS_ERROR</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Digital signature verified</name>
+		<link_name>OBJ_CHECKSUM_VERIFY_PASS</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Digital signature verification failed</name>
+		<link_name>OBJ_CHECKSUM_VERIFY_FAIL</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Workflow Started</name>
+		<link_name>OBJ_WORKFLOW_BEGIN</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Workflow Completed</name>
+		<link_name>OBJ_WORKFLOW_END</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Workflow Cleared</name>
+		<link_name>OBJ_WORKFLOW_CLEAR</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Workflow View</name>
+		<link_name>OBJ_WORKFLOW_VIEW</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Workflow Edit</name>
+		<link_name>OBJ_WORKFLOW_EDIT</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Workflow Approved</name>
+		<link_name>OBJ_WORKFLOW_APPROVE</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Workflow Comment</name>
+		<link_name>OBJ_WORKFLOW_COMMENT</link_name>
+	</log_type>
+
+	<log_type>
+		<name>Object Workflow Rejected</name>
+		<link_name>OBJ_WORKFLOW_REJECT</link_name>
+	</log_type>
+	
+</data>
+

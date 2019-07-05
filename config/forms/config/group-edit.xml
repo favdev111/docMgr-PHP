@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Name</title>
+				<name>name</name>
+				<data>name</data>
+				<type>textbox</type>
+			</form>
+			
+</data>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+
+	<!-- begin authentication level permissions -->
+	<perm>
+		<name>Administrator</name>
+		<bitpos>0</bitpos>
+		<owner>1</owner>
+		<define_name>ADMIN</define_name>
+	</perm>
+	<!--
+	Taking these out to simplify everything
+	<perm>
+		<name>Can manage other users</name>
+		<bitpos>1</bitpos>
+		<owner>0</owner>
+		<define_name>MANAGE_USERS</define_name>
+	</perm>
+	<perm>
+		<name>Can manage groups</name>
+		<bitpos>2</bitpos>
+		<owner>0</owner>
+		<define_name>MANAGE_GROUP</define_name>
+	</perm>
+	-->
+	<perm>
+		<name>Can alter own profile</name>
+		<bitpos>3</bitpos>
+		<owner>0</owner>
+		<define_name>EDIT_PROFILE</define_name>
+	</perm>
+	<!--
+	grouped in with edit profile
+	<perm>
+		<name>Can alter password</name>
+		<bitpos>4</bitpos>
+		<owner>0</owner>
+		<define_name>EDIT_PASSWORD</define_name>
+	</perm>
+	-->
+	<perm>
+		<name>Guest Access Only (Overrides other permissions)</name>
+		<bitpos>5</bitpos>
+		<owner>0</owner>
+		<define_name>GUEST_ACCOUNT</define_name>
+	</perm>
+
+	<!-- begin docmgr-specific permissions -->
+
+	<perm>
+		<name>Can insert objects into the system</name>
+		<bitpos>10</bitpos>
+		<owner>0</owner>
+		<define_name>INSERT_OBJECTS</define_name>
+	</perm>
+	<perm>
+		<name>Can create objects in the root collection</name>
+		<bitpos>11</bitpos>
+		<owner>0</owner>
+		<define_name>CREATE_ROOT</define_name>
+	</perm>
+	<perm>
+		<name>Can browse the root collection (if cannot insert)</name>
+		<bitpos>12</bitpos>
+		<owner>0</owner>
+		<define_name>BROWSE_ROOT</define_name>
+	</perm>
+
+</data>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+			<form>
+				<title>Email When Complete</title>
+				<lang>_I18N_EMAIL_WORK_COMPLETE</lang>
+				<name>email_notify</name>
+				<data>email_notify</data>
+				<type>yesno</type>
+			</form>
+
+			<form>
+				<title>Email When Expired</title>
+				<lang>_I18N_EMAIL_WORK_OVERDUE</lang>
+				<name>expire_notify</name>
+				<data>expire_notify</data>
+				<type>yesno</type>
+			</form>
+
+	
+</data>
+

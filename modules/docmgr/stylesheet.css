@@ -1,0 +1,253 @@
+
+/**
+	browse list styles
+	*/
+
+.nameCell
+{
+	-webkit-box-flex:1;
+  -moz-box-flex:1;   
+  -ms-flex-grow:1;   
+  -ms-flex:1 0 auto; 
+  flex-grow:1;
+}
+
+.sizeCell
+{
+	width:120px;
+}
+
+.rankCell
+{
+	width:80px;
+}
+
+.editedCell
+{
+	width:180px;
+}
+
+.optionsCell
+{
+	width:180px;
+}
+
+.optionsCell img
+{
+	height:16px;
+	width:16px;
+	margin-right:10px;
+	margin-top:-2px;
+}
+
+/*
+#recordListContainer .recordListRowImage
+{
+	width:18px;
+	height:18px;
+	margin-left:9px;
+	margin-top:1px;
+}
+*/
+
+.recordListRowSelectImage
+{
+	margin-top:2px;
+}
+
+.browseSummary
+{
+	margin-left:10px;
+	color:gray;
+}
+
+.searchObjectPath
+{
+	margin-left:10px;
+	color:gray;
+}
+
+.searchObjectPath a:link
+{
+	font-weight:normal;
+	color:gray;
+	text-decoration:none;
+}
+
+.searchObjectPath a:visited
+{
+	text-decoration:none;
+	font-weight:normal;
+	color:gray;
+}
+
+.searchObjectPath a:hover
+{
+	text-decoration:underline;
+	font-weight:normal;
+	color:gray;
+}
+
+.permAccountName
+{
+	text-align:left;
+	width:200px;
+}
+
+.permAccountForm
+{
+	text-align:center;
+	width:75px;
+}
+
+.permAccountType
+{
+	text-align:center;
+	width:75px;
+}
+
+.logRecordDescription
+{
+	width:200px;
+}
+
+.logRecordAccount
+{
+	width:170px;
+}
+
+.logRecordDate
+{
+	width:170px;
+}
+
+.logRecordIPAddress
+{
+	width:130px;
+}
+
+.historyRecordCheckbox
+{
+	width:30px;
+}
+
+.historyRecordVersion
+{
+	width:75px;
+}
+
+.historyRecordCustomVersion
+{
+	width:100px;
+}
+
+.historyRecordModifiedOn
+{
+	width:170px;
+}
+
+.historyRecordModifiedBy
+{
+	width:170px;
+}
+
+.historyRecordSize
+{
+	width:80px;
+}
+
+.historyRecordNotes
+{
+	width:300px;
+}
+
+.parentsInstructions
+{
+	font-weight:bold;
+	color:darkslategray;
+	border-bottom:1px solid #BABABA;
+	padding-left:5px;
+	padding-bottom:5px;
+}
+
+.parentsTree
+{
+	padding-top:10px;
+}
+
+.parentsFormRow
+{
+}
+
+.uploadSelectContainer
+{
+	width:100%;
+	padding-top:5px;
+	padding-bottom:10px;
+}
+
+.uploadOptions
+{
+	margin-top:1px;
+	float:right;
+	margin-right:10px;
+	color:darkslategray;
+}
+
+.uploadOptions input
+{
+	margin-right:5px;
+}
+
+.uploadSelect
+{
+	margin-left:10px;
+	font-weight:bold;
+	color:darkslategray;
+}
+
+.uploadSelect img
+{
+	width:20px;
+	height:20px;
+	margin-right:5px;
+	margin-bottom:-5px;
+}
+
+.uploadSelect:hover
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.uploadOption input
+{
+	margin-right:7px;
+}
+
+.modalOptionsCell
+{
+	width:75px;
+}
+
+.defaultPathCell
+{
+	width:170px;
+}
+
+
+.shareSettingsCell
+{
+	width:150px;
+}
+
+.keywordNameCell
+{
+	width:310px;
+}
+
+.keywordValueCell
+{
+	width:310px;
+}
+

@@ -1,0 +1,104 @@
+
+.editFileRow {
+	height:110px;
+	border-bottom:1px solid #DADADA;
+}
+
+.editFileRow input {
+	float:left;
+	margin-top:50px;
+}
+
+.editThumb {
+	float:left;
+	margin-left:15px;
+	margin-right:15px;
+	border:1px solid black;
+	margin-top:6px;
+}
+
+.editFileRow div {
+	float:left;
+}
+
+.editName {
+	margin-top:45px;
+}
+
+.editAction {
+	margin-top:50px;
+	margin-left:3px;
+	margin-right:3px;
+}
+
+.editAction:hover {
+	cursor:pointer;
+}
+
+.editListRow {
+	height:110px;
+	border-bottom:1px solid #DADADA;
+}
+
+.editListRow input {
+	float:left;
+	margin-top:50px;
+	margin-left:5px;
+}
+
+.editListThumb {
+	float:left;
+	margin-left:15px;
+	margin-right:15px;
+	border:1px solid black;
+	margin-top:6px;
+}
+
+.editListRow div {
+	float:left;
+}
+
+.editListName {
+	width:80px;
+	margin-top:50px;
+	font-weight:bold;
+}
+
+#fileEditList {
+	height:540px;
+	overflow:auto;
+	border-right:1px solid #DADADA;
+}
+
+#fileEditList .leftColumn {
+}
+
+.advCell {
+	margin-bottom:20px;
+}
+
+.advCell input {
+	width:100px;
+}
+
+#pdfPreview {
+	width:500px;
+	overflow:auto;
+	height:500px;
+}
+
+#advLeft {
+	width:250px;
+	float:left;
+}
+
+#advRight {
+	float:left;
+	padding-left:20px;
+	height:540px;
+}
+
+#fileSelector
+{
+	float:left;
+}

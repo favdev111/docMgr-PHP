@@ -1,0 +1,84 @@
+/**
+	a place for us to override floats with the flexible box model
+	*/
+
+.recordListHeaderRow
+{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+}
+
+.recordHeaderRowSelect
+{
+	float:none;
+}
+
+.recordListHeaderCell
+{
+	float:none;
+	text-overflow:ellipsis;
+}
+
+.recordListRow
+{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+}
+
+.recordListRowSelect
+{
+	float:none;
+}
+
+.recordListRowCell
+{
+	float:none;
+	text-overflow:ellipsis;
+}
+
+#siteHeader
+{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+}
+ 
+#siteHeaderImage
+{
+	float:none;
+}
+
+#siteToolbar
+{
+	float:none;
+	margin-left:155px;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-flex:1;
+}
+
+.siteToolbarGroup
+{
+}
+
+#siteToolbarSearchContainer
+{
+	float:none;
+}
+
+/* when toolbar is right aligned, push it all the way over */
+.siteToolbarSpacer.right
+{
+	-webkit-box-flex:1;
+}
+
+.siteToolbarGroup.right
+{
+	float:none;
+	-webkit-box-align:end;
+}
+
+.siteToolbarGroup.left
+{
+	float:none;
+}
+

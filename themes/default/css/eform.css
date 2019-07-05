@@ -1,0 +1,250 @@
+
+.eForm
+{
+	width:100%;
+}
+
+.eformRow
+{
+	width:100%;
+  display:-webkit-box;
+  -webkit-box-orient:horizontal;
+  display:-moz-box;
+  -moz-box-orient:horizontal;
+  display:-ms-flexbox;
+  -ms-flex-direction:row;   
+  display:flexbox;
+  flex-direction:row;   
+}
+
+.eformColumn
+{
+	width:0;
+	border-right:1px solid #EBEBEB;
+	-webkit-box-flex:1;
+	-moz-box-flex:1;
+	-ms-flex:1 0 auto;
+	-ms-flex-grow:1;
+	flex-grow:1;
+}
+
+
+.eformPageHeader
+{
+	background-color:#F6F6F6;
+	border-bottom:1px solid #EBEBEB;
+	font-weight:bold;
+	color:darkblue;
+	padding:10px;
+}
+
+.eformInputRow
+{
+	width:100%;
+  padding-top:5px;
+  padding-bottom:5px;
+	border-bottom:1px solid #EBEBEB;
+  display:-webkit-box;
+  -webkit-box-orient:horizontal;
+  display:-moz-box;
+  -moz-box-orient:horizontal;
+  display:-ms-flexbox;
+  -ms-flex-direction:row;   
+  display:flexbox;
+  flex-direction:row;   
+}
+
+
+.eformInputTitleCell {
+	width:0;
+	-webkit-box-flex:1.5;
+	-ms-flex:1.5 0 auto;
+	-ms-flex-grow:1.5;
+	flex-grow:1.5;
+	padding-left:20px;
+	padding-top:8px;
+	padding-bottom:8px;
+	white-space:nowrap;
+	text-align:right;
+	padding-right:20px;
+	font-weight:bold;
+	color:darkslategray;
+}
+
+@-moz-document url-prefix() {
+
+	.eformInputTitleCell
+	{
+		width:220px;
+	}
+}
+
+.eformInputLabelCell
+{
+	-webkit-box-flex:2;
+	-moz-box-flex:2;
+	-ms-flex:2 0 auto;
+	-ms-flex-grow:2;
+	flex-grow:2;
+	width:0;
+  margin-top:8px;
+	margin-left:10px;
+}
+
+.eformInputFormCell {
+	-webkit-box-flex:2;
+	-moz-box-flex:2;
+	-ms-flex:2 0 auto;
+	-ms-flex-grow:2;
+	flex-grow:2;
+	width:0;
+}
+
+.eformInputDataCell
+{
+	width:0;
+	-webkit-box-flex:2;
+	-moz-box-flex:2;
+	-ms-flex:2 0 auto;
+	-ms-flex-grow:2;
+	flex-grow:2;
+  padding-top:8px;
+  white-space:normal;
+  padding-bottom:8px;
+}
+
+.eformInputFormCell input {
+	margin-left:10px;
+	margin-top:6px;
+	margin-bottom:5px;
+	max-width:auto;
+	border:1px solid #EBEBEB;
+	background-color:white;
+	color:black;
+	width:80%;
+}
+
+.eformInputFormCell input[type="radio"] {
+	width:15px;
+}
+
+
+.eformInputFormCell input:focus {
+	background-color:#F6F6F6;
+}
+
+
+.eformInputFormCell select {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:6px;
+	margin-bottom:5px;
+	max-width:140px;
+	border:1px solid #EBEBEB;
+	background-color:white;
+	color:black;
+}
+
+.eformInputFormCell select:focus {
+	background-color:#F6F6F6;
+}
+
+.eformInputFormCell textarea {
+	margin-left:10px;
+	margin-top:6px;
+	margin-bottom:5px;
+	border:1px solid #EBEBEB;
+	background-color:white;
+	color:black;
+
+	width:80%;
+	height:92px;
+}
+
+.eformInputFormCell textarea:focus {
+	background-color:#F6F6F6;
+}
+
+.eformInputFormCell img {
+	margin-left:5px;
+	margin-bottom:-3px;
+}
+
+.eformInputCheckboxRow
+{
+  width:100%;
+  white-space:nowrap;
+  text-align:left;   
+  padding-top:7px;   
+}
+
+.eformInputCheckboxRow input
+{
+  width:20px;
+  margin-top:-2px;
+}
+
+
+/******************************************
+	for radio/checkbox forms
+******************************************/
+
+.multiformHeader {
+	color:darkblue;
+  font-weight:bold;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+	background-color:#F6F6F6;
+	float:left;
+	width:92%;
+	white-space:nowrap;
+	text-align:left;
+	padding-right:20px;
+}
+
+.multiformLeftColumn {
+	float:left;
+	width:47%;
+}
+
+.multiformRightColumn {
+	float:left;
+	width:47%;
+}
+
+.multiformInputCell {
+	margin-top:5px;
+}
+
+.multiformInputCell input {
+	margin-top:0px;
+}
+
+.multiformInputCell select {
+	margin-top:0px;
+}
+
+.multiformHeader button {
+  float:right;
+  margin-top:-5px;
+  margin-bottom:-2px;
+}
+
+.multiformHeader button img {
+  margin-top:-2px;
+}
+
+/* yesno form */
+.yesnoform div {
+	float:left;
+	margin-right:7px;
+}
+
+.yesnoform div div {
+	float:left;
+	margin-top:5px;
+	margin-left:-3px;
+}
+

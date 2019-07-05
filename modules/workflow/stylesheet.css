@@ -1,0 +1,100 @@
+
+#taskNotes
+{
+	margin-left:10px;
+	padding-top:7px;
+	height:50px;
+}
+
+.nameCell
+{
+	width:220px;
+}
+
+.objectNamesCell
+{
+  -webkit-box-flex:1; 
+  -moz-box-flex:1;
+  -ms-flex-grow:1;
+  -ms-flex:1 0 auto;
+  flex-grow:1;
+}
+
+.createdDateCell
+{
+  width:180px;
+}
+
+.createdByCell
+{
+  width:150px;
+}
+
+.statusCell
+{
+  width:150px;
+}
+
+/**
+	task cells
+	*/
+.fileCell
+{
+  -webkit-box-flex:1; 
+  -moz-box-flex:1;
+  -ms-flex-grow:1;
+  -ms-flex:1 0 auto;
+  flex-grow:1;
+}
+
+.workflowNameCell
+{
+	width:220px;
+}
+
+.submittedByCell
+{
+	width:180px;
+}
+
+.taskTypeCell
+{
+	width:150px;
+}
+
+.taskDueCell
+{
+	width:150px;
+}
+
+/**
+	workflow popup cells
+	*/
+.recipientCell
+{
+	width:200px;
+}
+
+.statusCell
+{
+	width:140px;
+}
+
+.dateDueCell
+{
+	width:110px;
+}
+
+.stageCell
+{
+	width:70px;
+}
+
+.commentsCell
+{
+  -webkit-box-flex:1; 
+  -moz-box-flex:1;
+  -ms-flex-grow:1;
+  -ms-flex:1 0 auto;
+  flex-grow:1;
+}

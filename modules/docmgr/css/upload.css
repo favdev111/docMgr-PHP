@@ -1,0 +1,135 @@
+#uploadListDiv
+{
+  height:386px;
+  overflow:auto;
+  border-top:1px solid #BABABA;
+	background-color:white;
+}
+ 
+.uploadListRow
+{
+  margin-bottom:5px;
+  border-bottom:1px solid #BABABA;
+}
+
+.uploadListRow img
+{
+	float:left;
+	margin-left:5px;
+	margin-right:2px;
+	margin-top:7px;
+}
+ 
+.uploadListName
+{
+  float:left;
+  width:250px;
+  text-overflow:ellipsis;
+  font-weight:bold;
+  color:darkblue;  
+  margin:5px;
+  padding-top:4px;
+  padding-left:5px;
+}
+ 
+ 
+#progressContainer
+{
+  margin:5px;
+  float:right;
+  height:20px;
+  width:275px;
+  border:1px solid slateblue;
+  text-align:center;
+}
+
+#checkinProgressContainer
+{
+  margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	display:none;
+  height:20px;
+  width:275px;
+  border:1px solid slateblue;
+  text-align:center;
+}
+
+
+#progressStatus
+{
+  background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#058cf5), to(#015FE7), color-stop(.1,#058cf5));
+  background: -moz-linear-gradient(0% 100% 90deg,#058cf5, #015fe7, #058cf5 10%);
+  height:20px;
+  width:0px;
+}
+ 
+#progressText
+{
+  text-align:center;
+  margin-top:-18px;
+}
+
+.uploadOptionRow
+{
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.uploadListSubRow
+{
+  display:none;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:5px;
+	border-top:1px solid #BABABA;
+	background-color:whitesmoke;
+  display:-webkit-box;
+  -webkit-box-orient:horizontal;
+  display:-moz-box;
+  -moz-box-orient:horizontal;
+  display:-ms-flexbox;
+  -ms-flex-direction:row;
+  display:flexbox;
+  flex-direction:row;
+}
+
+.uploadListSubColumn
+{
+	width:310px;
+}	
+ 
+.enterDescription
+{
+  width:240px;
+  height:40px;
+}
+ 
+.enterDescriptionFaded
+{
+  color:slategray;
+  width:240px; 
+  height:40px;
+}
+
+.uploadKeywordList {
+  width:98%;  
+  margin-left:10px;
+}
+ 
+.uploadKeywordRow
+{
+}
+ 
+.uploadKeywordRow td {
+}
+ 
+.uploadKeywordLabel {
+  padding-top:2px;
+  padding-right:5px;
+}
+ 
+.uploadKeywordEntry {
+  float:left;  
+}
+

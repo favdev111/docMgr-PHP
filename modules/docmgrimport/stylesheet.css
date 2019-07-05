@@ -1,0 +1,46 @@
+
+.imageCell
+{
+	width:30px;
+}
+
+.imageCell img
+{
+	margin-top:-2px;
+}
+
+.nameCell
+{
+  -webkit-box-flex:1; 
+  -moz-box-flex:1;
+  -ms-flex-grow:1;
+  -ms-flex:1 0 auto;
+  flex-grow:1;
+}
+
+.sizeCell
+{
+	width:150px;
+}
+
+.optionsCell
+{
+	width:150px;
+}
+
+.optionsCell img
+{
+	margin-right:5px;
+	margin-top:-2px;
+	height:16px;
+	width:16px;
+}
+
+.largePreviewImg
+{
+	margin-left:20px;
+}
+
+
+
+

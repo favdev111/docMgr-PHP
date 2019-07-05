@@ -1,0 +1,324 @@
+
+/*********************************
+	generic
+*********************************/
+html,body {
+	height:100%;
+}
+
+body,form {
+	padding:0px;
+	margin:0px;
+	border:0px;
+}
+
+body {
+	font-size:12px;
+	font-family:helvetica;
+	overflow:hidden;
+}
+
+
+/***************************************************
+	body container
+***************************************************/
+
+#sitePage {
+	width:100%;
+	height:100%;
+}
+
+#siteBody
+{
+	left:0px;
+	top:52px;
+	right:0px;
+	bottom:0px;
+	position:absolute;
+}
+
+
+#siteContent
+{
+	height:100%;
+	overflow:hidden;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	left:221px;
+	position:absolute;
+}
+
+/* put after floating divs */
+
+.cleaner {
+  clear:both;
+  height:0px;
+  font-size:0px;
+  border:none;
+  margin:0; padding:0;
+  background:transparent;
+}
+
+
+/***************************************************
+	site header
+***************************************************/
+#siteHeader
+{
+	height:50px;
+	width:100%;
+	background: -ms-linear-gradient(top,#586F8D,#224272);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#586F8D', endColorstr='#224272');
+	border-bottom:1px solid darkslategray;
+	border-top:1px solid #586f8d;
+
+}
+
+#siteHeaderImageContainer
+{
+	float:left;
+  width:220px;
+	z-index:50;
+}
+
+#siteHeaderImage
+{
+  margin-top:3px;
+  margin-left:20px;
+  height:44px;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+}
+ 
+#siteHeaderImage:hover
+{
+  cursor:pointer;
+}
+ 
+#siteHeaderImageText
+{
+  font-size:14px;
+  top:20px;
+  left:31px;
+  position:absolute;
+  font-weight:bold; 
+  color:darkslategray;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+}
+ 
+#siteHeaderImageText:hover
+{
+  cursor:pointer;
+}
+
+#siteStatus
+{
+	display:none;
+}
+
+/***********************************************
+	site status indicator
+***********************************************/
+#siteStatus {
+  padding:1px;
+  background-color:#F6F6F6;
+  border:1px solid #DADADA;
+  color:#333333;
+  top:0px;
+  position:absolute;
+  display:none;
+  z-index:50;
+  width:300px;
+  white-space:nowrap;
+}
+
+#siteStatus img {
+  float:left;
+  margin-left:5px;
+}
+
+#siteStatusMessage {
+  float:left;
+  color:#5e5e5e;
+  font-weight:bold;
+  margin-left:10px;
+  margin-top:8px;
+	font-size:14px;
+}
+
+/**********************************************
+  login form  
+**********************************************/
+/* luke's additions to the login form */
+.login_form
+{
+  border: 0px solid #ff0000;
+  margin-top:40px;
+  width:100%;
+}
+ 
+div.login_form h1
+{
+  font-size: 16px;
+  text-align: center;
+}
+
+div.login_form p.errorMessage
+{
+  text-align: center;
+}
+ 
+div.login_form p.form_input, div.login_form p.form_submit
+{
+  font-weight: bold;  
+  text-align: center;    
+}
+
+#siteWelcomeMessage
+{
+	font-size:12px;
+	float:right;
+	color:white;
+	margin-right:10px;
+	margin-top:15px;
+}
+
+/************************************************
+	element formatting
+************************************************/
+a:link
+{
+  color:darkslategray;
+  text-decoration:none;
+}
+
+a:visited
+{
+  color:darkslategray;
+  text-decoration:none;
+}
+
+a:hover
+{
+  color:darkslategray;
+  text-decoration:none;
+}
+
+.bookmarkLink
+{
+	font-weight:bold;
+	text-decoration:none;
+	padding:10px;
+}
+
+
+.siteMenuCell
+{
+	float:left;
+	width:110px;
+	height:110px;
+	padding:10px;
+	margin:10px;
+}
+
+.siteMenuCell:hover
+{
+	cursor:pointer;
+	background-color:white;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-ms-border-radius:10px;
+}
+
+.siteMenuCell img
+{
+	margin-top:5px;
+	margin-left:13px;
+	width:80px;
+	height:80px;
+}
+
+.siteMenuCell div
+{
+	margin-left:13px;
+	margin-top:10px;
+	font-weight:bold;
+	width:80px;
+	text-align:center;
+	color:darkslategray;
+}
+
+.siteLocationLink
+{
+  z-index:998;
+  position:absolute;
+  right:60px;
+  top:19px;  
+  white-space:nowrap;
+}
+ 
+.siteLocationLink:link
+{
+  color:white;
+}
+ 
+.siteLocationLink:visited
+{
+  color:white;
+}
+ 
+.siteLocationLink:hover
+{
+  color:white;
+  text-decoration:underline;
+}
+
+#notificationsDiv
+{
+  background-color:whitesmoke;
+  width:30px;
+  height:18px;
+  color:darkslategray;
+  font-weight:bold;
+  z-index:998;
+  position:absolute;
+  right:15px;
+  top:14px;
+  white-space:nowrap;
+  padding-top:6px;
+  text-align:center;
+  border:1px solid #E0E0E0;
+}
+
+#notificationsDiv:hover
+{
+  color:white;
+  text-decoration:underline;
+  cursor:pointer;
+}
+ 
+.notifDateCell
+{
+  width:170px;
+}
+ 
+.notifNameCell
+{
+	width:280px;
+}
+ 
+.notifItemNameCell
+{
+  width:200px;
+}
+ 
+.notifOptionsCell
+{
+  width:100px;
+}
